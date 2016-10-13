@@ -213,8 +213,7 @@ body {
     
 }
 
-@media (min-width: 75em) { 
-    /****breakpoint for svgs******/
+@media (min-width: 70em) { 
     
     
     body {
@@ -227,6 +226,16 @@ body {
     
     .title__container {
         padding-left: 15%;
+        width: 25%;
+    }
+    
+    .services__container {
+        width: 100%;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+    
+    .service {
         width: 25%;
     }
     
