@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
+* {
+    padding: 0; margin: 0;
+}
+
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+.flex-container  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #fefefe;
+  padding: 1.2em 10%;
+  border-bottom: solid 1px #acacac;
+  flex-flow: column wrap;
+}
+
+.logo {
+  margin: 0 0 0 0;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  padding-bottom: .5em;
+}
+
+.logo a {
+  color: #242424;
+}
+
+.logo span {
+    font-weight: 700;
+    color: #5B8DEF;
+}
+
+.logo, .navigation {
+    list-style: none;
+}
+
+.logo a, .navigation a {
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.navigation  {
+  display: flex;
+  flex-flow: column wrap; /*mobile*/
+  text-align: center;
+}
+
+.navigation a {
+  display: block;
+  margin: 0 .7em;
+  padding: .5em 0;
+  color: #242424;
+  font-size: 18px;
+}
+
+.navigation a:hover {
+    color: #5B8DEF;
+}
+
+.header__container {
+    background-color: #5B8DEF;
+    padding: 5em 0;
+}
+
+.title__container {
+    color: #fefefe;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title__container h1 {
+    font-size: 1.6em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 1em;
+}
+
+.title__container h2 {
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 2.5em;
+    line-height: 1.7em;
+}
+
+.title__container button {
+    font-weight: 700;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1em;
+    color: #fefefe;
+    border: solid 2px #fefefe;
+    padding: .7em .9em;
+    transition: .35s;
+    cursor: pointer;
+}
+
+.title__container button:hover {
+    background-color: #fefefe;
+    color: #5b8def;
+}
+
+
+/*******************************************************************/
+
+
+@media(min-width: 45em){
+    
+    .logo {
+        padding-bottom: 0;    
+    }
+    
+    .flex-container {
+        flex-flow: row;
+    }
+    
+    .navigation {
+        flex-flow: row;
+    }
+    
+    .header__container {
+        background: url(../images/bg.jpg) center center no-repeat;
+        background-size: cover;
+        padding: 10em 0;
+    }
+    
+    .title__container {
+        width: 40%;
+        margin: 0;
+        padding-left: 10%;
+        text-align: left;
+    }
+    
+    .title__container button {
+        margin: 0;
+    }
+    
+}
+
+@media (min-width: 75em) { 
+    
+    body {
+        font-size: 18px;
+    }
+    
+    .flex-container {
+        padding: 1.5em 15%;
+    }
+    
+    .title__container {
+        padding-left: 15%;
+        width: 25%;
+    }
+    
+}
+
+
+
