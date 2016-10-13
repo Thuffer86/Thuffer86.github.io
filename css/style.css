@@ -158,6 +158,11 @@ body {
     line-height: 1.7em;
 }
 
+.work__container {
+    height: 400px;
+    background-color: #5B8DEF;
+}
+
 
 /*******************************************************************/
 
@@ -226,7 +231,7 @@ body {
     
     .title__container {
         padding-left: 15%;
-        width: 33%;
+        width: 33.33%;
     }
     
     .services__container {
@@ -237,6 +242,14 @@ body {
     
     .service {
         width: 25%;
+    }
+    
+    .services__container h1 {
+        font-size: 1.4em;
+    }
+    
+    .services__container p {
+        font-size: 1.0em;
     }
     
 }
