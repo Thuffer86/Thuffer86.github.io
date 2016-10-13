@@ -66,6 +66,7 @@ body {
 .header__container {
     background-color: #5B8DEF;
     padding: 5em 0;
+    border-bottom: solid 1px #acacac;
 }
 
 .title__container {
@@ -110,6 +111,53 @@ body {
     color: #5b8def;
 }
 
+.services__container {
+    color: #424242;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 5em 0 0 0;
+}
+
+.service {
+    height: auto;
+    width: 100%;
+}
+
+.service__img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 2em auto;
+}
+
+#design {
+    background-image: url(../images/design.svg);
+}
+
+#frontEnd {
+    background-image: url(../images/FEdev.svg);
+}
+
+#backEnd {
+    background-image: url(../images/BEdev.svg);
+}
+
+.services__container h1 {
+    font-size: 1.4em;
+    padding-bottom: 1em;
+}
+
+.services__container p {
+    font-size: 1em;
+    color: #646464;
+    padding-bottom: 5em;
+    line-height: 1.7em;
+}
+
 
 /*******************************************************************/
 
@@ -139,15 +187,35 @@ body {
         margin: 0;
         padding-left: 10%;
         text-align: left;
+
     }
     
     .title__container button {
         margin: 0;
     }
     
+    .services__container {
+        width: 50%;
+    }
+    
+    .service__img {
+        width: 175px;
+        height: 175px;
+    }
+    
+    .services__container h1 {
+        font-size: 1.6em;
+    }
+    
+    .services__container p {
+        font-size: 1.2em;
+    }
+    
 }
 
 @media (min-width: 75em) { 
+    /****breakpoint for svgs******/
+    
     
     body {
         font-size: 18px;
