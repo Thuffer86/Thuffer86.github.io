@@ -252,6 +252,11 @@ body {
         font-size: 1.0em;
     }
     
+    .service__img {
+        width: 140px;
+        height: 140px;
+    }
+    
 }
 
 
