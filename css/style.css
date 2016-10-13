@@ -213,7 +213,7 @@ body {
     
 }
 
-@media (min-width: 70em) { 
+@media (min-width: 60em) { 
     
     
     body {
@@ -226,7 +226,7 @@ body {
     
     .title__container {
         padding-left: 15%;
-        width: 25%;
+        width: 33%;
     }
     
     .services__container {
