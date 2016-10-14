@@ -327,9 +327,29 @@ textarea {
 }
 
 footer {
-    height: 200px;
+    padding: 3em 0;
     background-color: #5b8def;
+    color: #fefefe;
+    text-align: center;
 }
+
+.social__container  li{
+    display: inline-block;
+    padding: 1em .5em;
+}
+
+.social__container li a {
+    text-decoration: none;
+    color: #fefefe;
+    font-weight: 700;
+}
+
+footer p {
+    font-size: .8em;
+    line-height: 1.7em;
+}
+
+
 
 
 
@@ -468,7 +488,7 @@ footer {
     }
     
     .header__container {
-        padding: 13em 0;
+        padding: 12em 0;
     }
 }
 
