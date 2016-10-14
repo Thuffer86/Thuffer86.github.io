@@ -170,13 +170,15 @@ body {
     background-color: #5b8def;
     padding: 5em 0;
     text-align: center;
-    border-bottom: solid 1px #fefefe;
+    border-bottom: solid 1px #5b8def;
 }
 
 .work__container h1 {
     padding-bottom: 1.5em;
     color: #fefefe;
     font-size: 1.4em;
+    letter-spacing: 1px;
+    font-weight: 400;
 }
 
 .work__container button {
@@ -224,8 +226,7 @@ body {
 
 .contact__container h1 {
     font-size: 1.6em;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-weight: 400;
     padding-bottom: 1em;
     margin: 0 auto;
     text-align: center;
@@ -437,13 +438,37 @@ footer {
         height: 140px;
     }
     
+    
+    .contact__container {
+        padding: 5em 15%;
+    }
 }
 
 @media (min-width: 75em) { 
+    
+       body {
+        font-size: 19px;
+    }
+    
 
+    .title__container {
+        width: 25%;
+    }
+    
+    .services__container {
+        padding: 8em 0;
+    }
     
     .work__container article {
         width: 25%;
+    }
+    
+    .contact__container {
+        padding: 8em 20%;
+    }
+    
+    .header__container {
+        padding: 13em 0;
     }
 }
 
