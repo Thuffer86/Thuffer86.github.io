@@ -43,16 +43,6 @@
             <p>Back-End Development is something that I've just started to pick up this year. I consider myself a full-stack Javascript developer. That means that I use Javascript, with NodeJS and MongoDB to build full-stack websites. I've even gone so far as to create a few web applications on my local machine, and I've even launched a couple apps on heroku.</p>
         </div>
     </main>
-    <main class="email__container">
-      <h1>Sign up for special offers.</h1>
-      <form>
-          <input type="text" class="email__field" id="fieldEmail" name="" placeholder="Enter email here">
-          <input type="submit" class="email__button" id="submit" value="Join Now">
-      </form>
-    </main>
-    <main class="contact__container">
-        
-    </main>
     <main class="work__container">
         <article class="loc8r">
             <h1>MongoDB/NodeJS</h1>
@@ -71,6 +61,19 @@
             <button>Visit</button>
         </article>
     </main>
+    <main class="contact__container">
+      <div class="contact__align">
+        <h1>Contact Me</h1>
+        <form class="form__fluid" name="addData" method="post" action="/contact/send">
+          <input id="userName" type="text" placeholder="Name" name="name" required=''>
+          <input id="userEmail" type="email" placeholder="Email" name="email" required=''>
+          <textarea id="userMessage" placeholder="Message" name="message" required=""></textarea>
+          <input type="submit">
+        </form>
+      </div>
+    </main>
+    <footer>
+    </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </body>
 </html>

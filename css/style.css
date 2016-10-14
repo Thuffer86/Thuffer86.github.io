@@ -158,85 +158,6 @@ body {
     line-height: 1.7em;
 }
 
-.email__container {
-    padding: 5em 0;
-    background-color: #5B8DEF;
-    border-bottom: solid 1px #acacac;
-}
-
-.email__container form {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-}
-
-
-
-.email__container h1 {
-    display: block;
-    color: #fefefe;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 700;
-    letter-spacing: 1px;
-    padding-bottom: 1.5em;
-    width: 75%;
-    line-height: 1.7em;
-    margin: 0 auto;
-}
-
-.email__field {
-    padding: 1em .5em;
-    font-size: 1em;
-    margin: 0 0 2em 0;
-    display: block;
-    border: solid 2px #fefefe;
-    background-color: #5B8DEF;
-    width: 75%;
-    color: #fff;
-}
-
-
-input::-webkit-input-placeholder {
-    color: #fefefe !important;
-}
- 
-input:-moz-placeholder { /* Firefox 18- */
-    color: #fefefe !important;  
-}
- 
-input::-moz-placeholder {  /* Firefox 19+ */
-    color: #fefefe !important;  
-}
- 
-input:-ms-input-placeholder {  
-    color: #fefefe !important;  
-}
-
-.email__button {
-    font-weight: 700;
-    text-align: center;
-    background-color: transparent;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 1em;
-    color: #fefefe;
-    border: solid 2px #fefefe;
-    padding: .7em .9em;
-    transition: .35s;
-    cursor: pointer;
-    display: block;
-}
-
-.email__button:hover {
-    color: #5B8DEF;
-    background-color: #fefefe;
-}
-
-.contact__container {
-    background-color: #fefefe;
-    height: 600px;
-}
 
 .work__container {
     display: flex;
@@ -296,6 +217,121 @@ input:-ms-input-placeholder {
 }
 
 
+.contact__container {
+    padding: 5em 0;
+    background-color: #fefefe;
+}
+
+.contact__container h1 {
+    font-size: 1.6em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 1em;
+    margin: 0 auto;
+    text-align: center;
+    color: #424242;
+    
+}
+
+
+form {
+    width: 75%;
+    margin: 0 auto;
+    position: relative;
+    left: -15px;
+}
+
+input,
+textarea {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    margin: 8px 0;
+    padding: 10px 15px;
+    background: #fefefe;
+    color: #424242;
+    font-size: 1em;
+    border: 1px solid #424242;
+    -webkit-appearance: none;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+input[type=submit],
+textarea[type=submit] {
+    color: #fefefe;
+    border-color: #5b8def;
+    background-color: #5b8def;
+    width: 120px;
+    font-weight: 700;
+    font-size: 1.2em;
+    -webkit-transition: .35s;
+    transition: .35s;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #5b8def;
+    border-color: #5b8def;
+    color: #fefefe;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #424242;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+    color: #424242;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #424242;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #424242;
+}
+
+input.error,
+textarea.error {
+    background: #AD4747;
+    color: #fefefe;
+}
+
+input.error::-webkit-input-placeholder,
+textarea.error::-webkit-input-placeholder {
+    color: #424242;
+}
+
+input.error::-moz-placeholder,
+textarea.error::-moz-placeholder {
+    color: #424242;
+}
+
+input.error:-ms-input-placeholder,
+textarea.error:-ms-input-placeholder {
+    color: #424242;
+}
+
+input.error::placeholder,
+textarea.error::placeholder {
+    color: #424242;
+}
+
+textarea {
+    height: 10em;
+}
+
+footer {
+    height: 200px;
+    background-color: #5b8def;
+}
+
+
+
 /*******************************************************************/
 
 
@@ -347,23 +383,7 @@ input:-ms-input-placeholder {
     .services__container p {
         font-size: 1em;
     }
-    
-    .email__container form {
-    padding: 0 5%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    
-}
-    
-    .email__field {
-        margin: 0;
-    }
-    
-    .email__button {
-        padding: 1em .5em;
-    }
-    
+  
     .work__container {
         flex-flow: row wrap;
     }
@@ -417,28 +437,10 @@ input:-ms-input-placeholder {
         height: 140px;
     }
     
-    .email__container form {
-       padding: 0 10%;
-       justify-content: space-between;
-    }
-    
-    .email__container h1 {
-        font-size: 1.4em;
-    }
-    
 }
 
 @media (min-width: 75em) { 
-    .email__container form {
-        padding: 0;
-        margin: 0 auto;
-        width: 40%;
-        justify-content: space-around;
-    }
-    
-    .email__field {
-        width: 50%;
-    }
+
     
     .work__container article {
         width: 25%;
