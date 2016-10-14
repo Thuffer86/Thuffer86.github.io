@@ -161,6 +161,7 @@ body {
 .email__container {
     padding: 5em 0;
     background-color: #5B8DEF;
+    border-bottom: solid 1px #acacac;
 }
 
 .email__container form {
@@ -232,9 +233,66 @@ input:-ms-input-placeholder {
     background-color: #fefefe;
 }
 
-.work__container {
+.contact__container {
+    background-color: #fefefe;
     height: 600px;
+}
+
+.work__container {
+    display: flex;
     background-color: #fefefe; 
+    flex-flow: column wrap;
+}
+
+.work__container article {
+    width: 100%;
+    background-color: #5b8def;
+    padding: 5em 0;
+    text-align: center;
+    border-bottom: solid 1px #fefefe;
+}
+
+.work__container h1 {
+    padding-bottom: 1.5em;
+    color: #fefefe;
+    font-size: 1.4em;
+}
+
+.work__container button {
+    font-weight: 700;
+    text-align: center;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1em;
+    color: #fefefe;
+    border: solid 2px #fefefe;
+    padding: .7em .9em;
+    transition: .35s;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.weather {
+    background: url(../images/weather.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.loc8r {
+    background: url(../images/loc8r.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.animation {
+    background: url(../images/animation.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.form {
+    background: url(../images/form.jpg) center center no-repeat;
+    background-size: cover;
 }
 
 
@@ -305,6 +363,15 @@ input:-ms-input-placeholder {
     .email__button {
         padding: 1em .5em;
     }
+    
+    .work__container {
+        flex-flow: row wrap;
+    }
+    
+    .work__container article {
+        width: 50%;
+        border-bottom: none;
+}
 
     
 }
@@ -371,6 +438,10 @@ input:-ms-input-placeholder {
     
     .email__field {
         width: 50%;
+    }
+    
+    .work__container article {
+        width: 25%;
     }
 }
 
