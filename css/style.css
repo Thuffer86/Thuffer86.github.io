@@ -363,7 +363,14 @@ input:-ms-input-placeholder {
 
 @media (min-width: 75em) { 
     .email__container form {
-        padding: 0 20%;
+        padding: 0;
+        margin: 0 auto;
+        width: 40%;
+        justify-content: space-around;
+    }
+    
+    .email__field {
+        width: 50%;
     }
 }
 
