@@ -113,7 +113,7 @@ body {
 
 .services__container {
     color: #424242;
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
     display: flex;
@@ -152,7 +152,7 @@ body {
 }
 
 .services__container p {
-    font-size: 1em;
+    font-size: .8em;
     color: #646464;
     padding-bottom: 5em;
     line-height: 1.7em;
@@ -274,7 +274,7 @@ input:-ms-input-placeholder {
     }
     
     .services__container {
-        width: 50%;
+        width: 75%;
     }
     
     .service__img {
@@ -283,11 +283,11 @@ input:-ms-input-placeholder {
     }
     
     .services__container h1 {
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
     
     .services__container p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     
     .email__container form {
@@ -326,22 +326,22 @@ input:-ms-input-placeholder {
     }
     
     .services__container {
-        width: 100%;
+        width: 90%;
         flex-flow: row wrap;
         justify-content: space-around;
         padding: 7em 0;
     }
     
     .service {
-        width: 25%;
+        width: 28%;
     }
     
     .services__container h1 {
-        font-size: 1.4em;
+        font-size: 1.2em;
     }
     
     .services__container p {
-        font-size: 1.0em;
+        font-size: .8em;
         padding-bottom: 0;
     }
     
