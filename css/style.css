@@ -158,9 +158,83 @@ body {
     line-height: 1.7em;
 }
 
-.work__container {
-    height: 400px;
+.email__container {
+    padding: 5em 0;
     background-color: #5B8DEF;
+}
+
+.email__container form {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+
+
+.email__container h1 {
+    display: block;
+    color: #fefefe;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-bottom: 1.5em;
+    width: 75%;
+    line-height: 1.7em;
+    margin: 0 auto;
+}
+
+.email__field {
+    padding: 1em .5em;
+    font-size: 1em;
+    margin: 0 0 2em 0;
+    display: block;
+    border: solid 2px #fefefe;
+    background-color: #5B8DEF;
+    width: 75%;
+    color: #fff;
+}
+
+
+input::-webkit-input-placeholder {
+    color: #fefefe !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+    color: #fefefe !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+    color: #fefefe !important;  
+}
+ 
+input:-ms-input-placeholder {  
+    color: #fefefe !important;  
+}
+
+.email__button {
+    font-weight: 700;
+    text-align: center;
+    background-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1em;
+    color: #fefefe;
+    border: solid 2px #fefefe;
+    padding: .7em .9em;
+    transition: .35s;
+    cursor: pointer;
+    display: block;
+}
+
+.email__button:hover {
+    color: #5B8DEF;
+    background-color: #fefefe;
+}
+
+.work__container {
+    height: 600px;
+    background-color: #fefefe; 
 }
 
 
@@ -216,6 +290,23 @@ body {
         font-size: 1.2em;
     }
     
+    .email__container form {
+    padding: 0 5%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+}
+    
+    .email__field {
+        margin: 0;
+    }
+    
+    .email__button {
+        padding: 1em .5em;
+    }
+
+    
 }
 
 @media (min-width: 60em) { 
@@ -238,6 +329,7 @@ body {
         width: 100%;
         flex-flow: row wrap;
         justify-content: space-around;
+        padding: 7em 0;
     }
     
     .service {
@@ -250,6 +342,7 @@ body {
     
     .services__container p {
         font-size: 1.0em;
+        padding-bottom: 0;
     }
     
     .service__img {
@@ -257,7 +350,21 @@ body {
         height: 140px;
     }
     
+    .email__container form {
+       padding: 0 10%;
+       justify-content: space-between;
+    }
+    
+    .email__container h1 {
+        font-size: 1.4em;
+    }
+    
 }
 
+@media (min-width: 75em) { 
+    .email__container form {
+        padding: 0 20%;
+    }
+}
 
 
