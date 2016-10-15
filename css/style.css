@@ -153,7 +153,7 @@ body {
 
 .services__container p {
     font-size: .8em;
-    color: #646464;
+    color: #757575;
     padding-bottom: 5em;
     line-height: 1.7em;
 }
@@ -181,6 +181,11 @@ body {
     font-weight: 400;
 }
 
+.work__container a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
 .work__container button {
     font-weight: 700;
     text-align: center;
@@ -196,6 +201,12 @@ body {
     display: block;
     margin: 0 auto;
     
+}
+
+
+.work__container button:hover {
+    background-color: #fefefe;
+    color: #5b8def;
 }
 
 .weather {
@@ -263,7 +274,7 @@ textarea[type=submit] {
     border-color: #5b8def;
     background-color: #5b8def;
     width: 120px;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.2em;
     -webkit-transition: .35s;
     transition: .35s;
@@ -347,6 +358,7 @@ footer {
 footer p {
     font-size: .8em;
     line-height: 1.7em;
+    max-width: 200px;
 }
 
 
@@ -390,6 +402,7 @@ footer p {
     
     .services__container {
         width: 75%;
+        
     }
     
     .service__img {
