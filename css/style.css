@@ -112,6 +112,7 @@ body {
 }
 
 .services__container {
+    height: 100%;
     color: #424242;
     width: 80%;
     margin: 0 auto;
@@ -152,8 +153,8 @@ body {
 }
 
 .services__container p {
-    font-size: .8em;
-    color: #757575;
+    font-size: .9em;
+    color: #646464;
     padding-bottom: 5em;
     line-height: 1.7em;
 }
@@ -168,7 +169,7 @@ body {
 .work__container article {
     width: 100%;
     background-color: #5b8def;
-    padding: 5em 0;
+    padding: 7em 0;
     text-align: center;
     border-bottom: solid 1px #5b8def;
 }
@@ -176,9 +177,9 @@ body {
 .work__container h1 {
     padding-bottom: 1.5em;
     color: #fefefe;
-    font-size: 1.4em;
+    font-size: 1.2em;
     letter-spacing: 1px;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .work__container a {
@@ -187,7 +188,7 @@ body {
 }
 
 .work__container button {
-    font-weight: 700;
+    font-weight: 300;
     text-align: center;
     background-color: transparent;
     text-transform: uppercase;
@@ -289,7 +290,7 @@ input[type=submit]:hover {
 
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-    color: #424242;
+    color: #aaa;
 }
 
 input::-moz-placeholder,
@@ -361,6 +362,7 @@ footer p {
     max-width: 80%;
     margin: 0 auto;
 }
+
 
 
 
@@ -439,7 +441,7 @@ footer p {
     }
     
     .flex-container {
-        padding: 1.5em 15%;
+        padding: 1.2em 15%;
     }
     
     .title__container {
@@ -456,6 +458,7 @@ footer p {
     
     .service {
         width: 28%;
+        height: 400px;
     }
     
     .services__container h1 {
@@ -463,13 +466,15 @@ footer p {
     }
     
     .services__container p {
-        font-size: .8em;
+        font-size: .7em;
         padding-bottom: 0;
     }
     
     .service__img {
-        width: 140px;
-        height: 140px;
+        width: 130px;
+        height: 130px;
+        margin-bottom: 3em;
+        
     }
     
     
@@ -489,8 +494,8 @@ footer p {
         width: 25%;
     }
     
-    .services__container {
-        padding: 8em 0;
+    .service {
+        height: 370px;
     }
     
     .work__container article {
@@ -498,7 +503,7 @@ footer p {
     }
     
     .contact__container {
-        padding: 8em 20%;
+        padding: 9em 25%;
     }
     
     .header__container {
