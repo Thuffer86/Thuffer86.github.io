@@ -73,6 +73,7 @@ body {
     width: 75%;
     margin: 0 auto;
     text-align: center;
+    padding: 3em 0;
 }
 
 .title__container h1 {
@@ -90,7 +91,7 @@ body {
 }
 
 .title__container button {
-    font-weight: 700;
+    font-weight: 300;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -396,7 +397,7 @@ footer p {
     .title__container {
         width: 40%;
         margin: 0;
-        padding-left: 10%;
+        padding: 0 0 0 10%;
         text-align: left;
 
     }

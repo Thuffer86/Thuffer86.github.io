@@ -14,9 +14,9 @@
         <h1 class="logo"><a href="#">Tyler <span>Huffer</span></a></h1>
         <ul class="navigation">
             <li><a href="http://www.github.com/thuffer86">Github</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
     <header class="header__container">
@@ -26,7 +26,7 @@
             <button>Hire Me</button>
         </div>
     </header>
-    <main class="services__container">
+    <main class="services__container" id="services">
         <div class="service">
             <div class="service__img" id="frontEnd"></div>
             <h1>Front-end</h1>
@@ -43,7 +43,7 @@
             <p>Back-End Development is something that I've just started to pick up this year. I consider myself a full-stack Javascript developer. That means that I use Javascript, with NodeJS and MongoDB to build full-stack websites. I've even gone so far as to create web applications on my local machine, and I've even launched a couple apps on heroku.</p>
         </div>
     </main>
-    <main class="work__container">
+    <main class="work__container" id="work">
         <article class="loc8r">
             <h1>MongoDB/NodeJS</h1>
             <a href="http://rocky-hamlet-33282.herokuapp.com"><button>Visit</button></a>
@@ -61,7 +61,7 @@
             <a href="http://ancient-river-68787.herokuapp.com"><button>Visit</button></a>
         </article>
     </main>
-    <main class="contact__container">
+    <main class="contact__container" id="contact">
       <div class="contact__align">
         <h1>Contact Me</h1>
         <form class="form__fluid" name="addData" method="post" action="/contact/send">
@@ -82,6 +82,7 @@
       <p>Copyright 2016 Tyler Huffer Web Design and Development</p>
     </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="app.js"></script>
 </body>
 </html>
 
