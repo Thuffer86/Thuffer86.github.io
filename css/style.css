@@ -13,10 +13,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
   background-color: #fefefe;
   padding: 1.2em 10%;
-  border-bottom: solid 1px #acacac;
+  border-bottom: solid 1px #cecece;
   flex-flow: column wrap;
 }
 
@@ -234,6 +233,9 @@ body {
 .contact__container {
     padding: 5em 0;
     background-color: #fefefe;
+    display: block;
+
+    
 }
 
 .contact__container h1 {
@@ -477,9 +479,8 @@ footer p {
         
     }
     
-    
     .contact__container {
-        padding: 5em 15%;
+        padding: 5em 15%; /**padding bug in IE**/
     }
 }
 
