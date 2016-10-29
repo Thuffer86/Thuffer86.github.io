@@ -73,7 +73,7 @@ body {
     width: 75%;
     margin: 0 auto;
     text-align: center;
-    padding: 3em 0;
+    padding: 2em 0;
 }
 
 .title__container h1 {
@@ -91,7 +91,7 @@ body {
 }
 
 .title__container button {
-    font-weight: 300;
+    font-weight: 400;
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -188,7 +188,7 @@ body {
 }
 
 .work__container button {
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     background-color: transparent;
     text-transform: uppercase;
