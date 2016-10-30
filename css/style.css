@@ -39,9 +39,13 @@ body {
     list-style: none;
 }
 
-.logo a, .navigation a {
+.navigation a, .logo a {
     text-decoration: none;
     font-weight: 300;
+}
+
+.header__container a {
+    text-decoration: none;
 }
 
 .navigation  {
@@ -107,7 +111,7 @@ body {
 
 .title__container button:hover {
     background-color: #fefefe;
-    color: #5b8def;
+    color: #5b8def !important;
 }
 
 .services__container {
@@ -168,7 +172,7 @@ body {
 .work__container article {
     width: 100%;
     background-color: #5b8def;
-    padding: 7em 0;
+    padding: 6em 0;
     text-align: center;
     border-bottom: solid 1px #5b8def;
 }
@@ -455,7 +459,7 @@ footer p {
         width: 90%;
         flex-flow: row wrap;
         justify-content: space-around;
-        padding: 7em 0;
+        padding: 6em 0;
     }
     
     .service {
