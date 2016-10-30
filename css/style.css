@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,600,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+
 
 * {
     padding: 0; margin: 0;
@@ -525,4 +524,7 @@ footer p {
     }
 }
 
+
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
