@@ -40,7 +40,7 @@ body {
 
 .navigation a, .logo a {
     text-decoration: none;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .header__container a {
@@ -87,7 +87,7 @@ body {
 
 .title__container h2 {
     font-size: 1em;
-    font-weight: 300;
+    font-weight: 400;
     padding-bottom: 2.5em;
     line-height: 1.7em;
 }
@@ -181,7 +181,7 @@ body {
     color: #fefefe;
     font-size: 1.2em;
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .work__container a {
@@ -525,6 +525,6 @@ footer p {
 }
 
 
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,600,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
