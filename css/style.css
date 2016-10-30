@@ -104,7 +104,7 @@ body {
     font-size: 1em;
     color: #fefefe;
     border: solid 2px #fefefe;
-    padding: .7em .9em;
+    padding: .8em .9em;
     transition: .35s;
     cursor: pointer;
 }
@@ -362,6 +362,7 @@ footer {
     font-weight: 700;
 }
 
+
 footer p {
     font-size: .8em;
     line-height: 1.7em;
@@ -497,6 +498,14 @@ footer p {
 
     .title__container {
         width: 25%;
+    }
+    
+    .title__container h1 {
+        font-size: 1.7em;
+    }
+    
+    .title__container h2 {
+        font-size: 1.1em;
     }
     
     .service {
