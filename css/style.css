@@ -513,7 +513,7 @@ footer p {
     
     .services__container p {
         font-size: .8em;
-        padding-bottom: 2em;
+        margin-bottom: 3em;
     }
     
     .work__container article {
