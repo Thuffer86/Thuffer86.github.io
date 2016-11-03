@@ -488,7 +488,7 @@ footer p {
     }
 }
 
-@media (min-width: 80em) { 
+@media (min-width: 85em) { 
     
        body {
         font-size: 19px;
