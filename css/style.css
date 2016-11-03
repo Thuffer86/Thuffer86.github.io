@@ -464,7 +464,7 @@ footer p {
     
     .service {
         width: 28%;
-        height: 400px;
+        height: auto;
     }
     
     .services__container h1 {
@@ -508,7 +508,7 @@ footer p {
     }
     
     .service {
-        height: 410px;
+        height: auto;
     }
     
     .services__container p {
