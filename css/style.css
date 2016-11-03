@@ -488,7 +488,7 @@ footer p {
     }
 }
 
-@media (min-width: 85em) { 
+@media (min-width: 80em) { 
     
        body {
         font-size: 19px;
@@ -508,7 +508,7 @@ footer p {
     }
     
     .service {
-        height: 400px;
+        height: 410px;
     }
     
     .services__container p {
