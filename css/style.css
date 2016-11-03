@@ -511,6 +511,10 @@ footer p {
         height: auto;
     }
     
+    .services__container {
+        padding: 7em 0;   
+    }
+    
     .services__container p {
         font-size: .8em;
     }
