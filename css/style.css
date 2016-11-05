@@ -280,7 +280,7 @@ textarea {
 }
 
 input[type=submit] {
-    font-family: 'montserrat', sans-serif;
+    font-family: 'montserrat', sans-serif!important;
 }
 
 input[type=submit],
