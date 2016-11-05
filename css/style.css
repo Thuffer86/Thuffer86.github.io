@@ -279,6 +279,10 @@ textarea {
     -webkit-appearance: none;
 }
 
+input[type=submit] {
+    font-family: 'montserrat', sans-serif;
+}
+
 input[type=submit],
 textarea[type=submit] {
     color: #fefefe;
@@ -516,7 +520,7 @@ footer p {
     }
     
     .services__container p {
-        font-size: .9em;
+        font-size: .8em;
     }
     
     .work__container article {
