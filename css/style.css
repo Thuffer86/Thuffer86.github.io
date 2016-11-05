@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .flex-container  {
@@ -21,7 +21,6 @@ body {
 .logo {
   margin: 0 0 0 0;
   font-size: 30px;
-  font-family: 'Roboto', sans-serif;
   padding-bottom: .5em;
 }
 
@@ -41,6 +40,7 @@ body {
 .navigation a, .logo a {
     text-decoration: none;
     font-weight: 400;
+    font-family: 'roboto', sans-serif;
 }
 
 .header__container a {
@@ -58,7 +58,7 @@ body {
   margin: 0 .7em;
   padding: .5em 0;
   color: #242424;
-  font-size: 18px;
+  font-size: 1.1em;
 }
 
 .navigation a:hover {
@@ -81,7 +81,6 @@ body {
 .title__container h1 {
     font-size: 1.6em;
     font-weight: 700;
-    letter-spacing: 1px;
     padding-bottom: 1em;
 }
 
@@ -90,6 +89,7 @@ body {
     font-weight: 400;
     padding-bottom: 2.5em;
     line-height: 1.7em;
+    font-family: 'roboto', sans-serif;
 }
 
 .title__container button {
@@ -106,6 +106,7 @@ body {
     padding: .8em .9em;
     transition: .35s;
     cursor: pointer;
+    font-family: 'montserrat', sans-serif;
 }
 
 .title__container button:hover {
@@ -129,11 +130,12 @@ body {
 .service {
     height: auto;
     width: 100%;
+    margin: 1em 0;
 }
 
 .service__img {
-    width: 150px;
-    height: 150px;
+    width: 140px;
+    height: 140px;
     margin: 0 auto 2em auto;
 }
 
@@ -151,7 +153,7 @@ body {
 
 .services__container h1 {
     font-size: 1.4em;
-    padding-bottom: 1em;
+    padding: 1em 0;
 }
 
 .services__container p {
@@ -159,6 +161,9 @@ body {
     color: #646464;
     padding-bottom: 5em;
     line-height: 1.7em;
+    font-family: 'roboto', sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 
@@ -180,7 +185,6 @@ body {
     padding-bottom: 1.5em;
     color: #fefefe;
     font-size: 1.2em;
-    letter-spacing: 1px;
     font-weight: 400;
 }
 
@@ -203,6 +207,7 @@ body {
     cursor: pointer;
     display: block;
     margin: 10px auto;
+    font-family: 'montserrat', sans-serif;
     
 }
 
@@ -257,6 +262,7 @@ form {
     margin: 0 auto;
     position: relative;
     left: -15px;
+    max-width: 600px;
 }
 
 input,
@@ -271,7 +277,6 @@ textarea {
     font-size: 1em;
     border: 1px solid #424242;
     -webkit-appearance: none;
-    font-family: 'Libre Franklin', sans-serif;
 }
 
 input[type=submit],
@@ -279,9 +284,8 @@ textarea[type=submit] {
     color: #fefefe;
     border-color: #5b8def;
     background-color: #5b8def;
-    width: 120px;
+    width: 100px;
     font-weight: 400;
-    font-size: 1.2em;
     -webkit-transition: .35s;
     transition: .35s;
     cursor: pointer;
@@ -296,6 +300,7 @@ input[type=submit]:hover {
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
     color: #aaa;
+    font-family: 'roboto', sans-serif;
 }
 
 input::-moz-placeholder,
@@ -367,6 +372,7 @@ footer p {
     line-height: 1.7em;
     max-width: 80%;
     margin: 0 auto;
+    font-family: 'roboto', sans-serif;
 }
 
 
@@ -377,7 +383,7 @@ footer p {
 /*******************************************************************/
 
 
-@media(min-width: 45em){
+@media(min-width: 42em){
     
     .logo {
         padding-bottom: 0;    
@@ -411,12 +417,7 @@ footer p {
     
     .services__container {
         width: 75%;
-        
-    }
-    
-    .service__img {
-        width: 175px;
-        height: 175px;
+        padding-top: 7em;
     }
     
     .services__container h1 {
@@ -425,6 +426,7 @@ footer p {
     
     .services__container p {
         font-size: 1em;
+        padding-bottom: 7em; 
     }
   
     .work__container {
@@ -459,12 +461,13 @@ footer p {
         width: 90%;
         flex-flow: row wrap;
         justify-content: space-around;
-        padding: 6em 0;
+        padding: 7em 0;
     }
     
     .service {
         width: 28%;
         height: auto;
+        margin: 0;
     }
     
     .services__container h1 {
@@ -500,12 +503,9 @@ footer p {
     }
     
     .title__container h1 {
-        font-size: 1.7em;
+        font-size: 1.8em;
     }
     
-    .title__container h2 {
-        font-size: 1.1em;
-    }
     
     .service {
         height: auto;
@@ -516,7 +516,7 @@ footer p {
     }
     
     .services__container p {
-        font-size: .8em;
+        font-size: .9em;
     }
     
     .work__container article {
@@ -533,6 +533,4 @@ footer p {
 }
 
 
-@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:400,700');
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
