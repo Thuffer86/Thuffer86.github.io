@@ -304,7 +304,7 @@ input[type=submit]:hover {
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
     color: #aaa;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'roboto', sans-serif;
 }
 
 input::-moz-placeholder,
