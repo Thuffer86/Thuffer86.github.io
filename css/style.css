@@ -136,7 +136,7 @@ body {
 .service__img {
     width: 140px;
     height: 140px;
-    margin: 0 auto 2em auto;
+    margin: 0 auto 1em auto;
 }
 
 #design {
@@ -153,7 +153,7 @@ body {
 
 .services__container h1 {
     font-size: 1.4em;
-    padding: 1em 0;
+    padding-bottom: 1em;
 }
 
 .services__container p {
