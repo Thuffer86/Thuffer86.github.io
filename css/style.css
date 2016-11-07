@@ -237,6 +237,11 @@ body {
     background-size: cover;
 }
 
+.space {
+    background: url(../images/space.jpg);
+    background-size: cover;
+}
+
 
 .contact__container {
     padding: 5em 0;
@@ -413,6 +418,10 @@ footer p {
         padding: 0 0 0 10%;
         text-align: left;
 
+    }
+    
+    .space {
+        display: none;   
     }
     
     .title__container button {
