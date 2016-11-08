@@ -20,7 +20,7 @@ body {
 
 .logo {
   margin: 0 0 0 0;
-  font-size: 30px;
+  font-size: 1.4em;
   padding-bottom: .5em;
 }
 
@@ -58,7 +58,7 @@ body {
   margin: 0 .7em;
   padding: .5em 0;
   color: #242424;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .navigation a:hover {
@@ -79,13 +79,13 @@ body {
 }
 
 .title__container h1 {
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: 700;
     padding-bottom: 1em;
 }
 
 .title__container h2 {
-    font-size: 1em;
+    font-size:.9em;
     font-weight: 400;
     padding-bottom: 2.5em;
     line-height: 1.7em;
@@ -98,12 +98,11 @@ body {
     margin: 0 auto;
     text-align: center;
     background-color: transparent;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-size: 1em;
     color: #fefefe;
     border: solid 2px #fefefe;
-    padding: .8em .9em;
+    padding: .7em .8em;
     transition: .35s;
     cursor: pointer;
     font-family: 'montserrat', sans-serif;
@@ -134,8 +133,8 @@ body {
 }
 
 .service__img {
-    width: 140px;
-    height: 140px;
+    width: 130px;
+    height: 130px;
     margin: 0 auto 3em auto;
 }
 
@@ -152,17 +151,17 @@ body {
 }
 
 .services__container h1 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding-bottom: 1em;
 }
 
 .services__container p {
-    font-size: .9em;
+    font-size: .8em;
     color: #646464;
     padding-bottom: 5em;
     line-height: 1.7em;
     font-family: 'roboto', sans-serif;
-    max-width: 500px;
+    max-width: 450px;
     margin: 0 auto;
 }
 
@@ -184,7 +183,7 @@ body {
 .work__container h1 {
     padding-bottom: 1.5em;
     color: #fefefe;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 400;
 }
 
@@ -197,12 +196,11 @@ body {
     font-weight: 400;
     text-align: center;
     background-color: transparent;
-    text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-size: 1em;
     color: #fefefe;
     border: solid 2px #fefefe;
-    padding: .7em .9em;
+    padding: .7em .8em;
     transition: .35s;
     cursor: pointer;
     display: block;
@@ -252,7 +250,7 @@ body {
 }
 
 .contact__container h1 {
-    font-size: 1.6em;
+    font-size: 1.3em;
     font-weight: 400;
     padding-bottom: 1em;
     margin: 0 auto;
@@ -400,6 +398,7 @@ footer p {
     
     .flex-container {
         flex-flow: row;
+        padding .8em 10%;
     }
     
     .navigation {
@@ -409,7 +408,7 @@ footer p {
     .header__container {
         background: url(../images/bg.jpg) center center no-repeat;
         background-size: cover;
-        padding: 6em 0;
+        padding: 7em 0;
     }
     
     .title__container {
@@ -434,11 +433,11 @@ footer p {
     }
     
     .services__container h1 {
-        font-size: 1.4em;
+        font-size: 1.1em;
     }
     
     .services__container p {
-        font-size: 1em;
+        font-size: .8em;
         padding-bottom: 7em; 
     }
   
@@ -462,7 +461,7 @@ footer p {
     }
     
     .flex-container {
-        padding: 1.2em 15%;
+        padding: .9em 15%;
     }
     
     .title__container {
@@ -483,18 +482,14 @@ footer p {
         margin: 0;
     }
     
-    .services__container h1 {
-        font-size: 1.2em;
-    }
-    
     .services__container p {
         font-size: .7em;
         padding-bottom: 0;
     }
     
     .service__img {
-        width: 130px;
-        height: 130px;
+        width: 120px;
+        height: 120px;
         margin-bottom: 3em;
         
     }
@@ -511,7 +506,7 @@ footer p {
     }
     
     .title__container h1 {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
     
     
@@ -520,11 +515,11 @@ footer p {
     }
     
     .services__container {
-        padding: 7em 0;   
+        padding: 6em 0;   
     }
     
     .services__container p {
-        font-size: .8em;
+        font-size: .7em;
     }
     
     .work__container article {
