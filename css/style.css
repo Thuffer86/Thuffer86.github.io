@@ -505,11 +505,6 @@ footer p {
 }
 
 @media (min-width: 80em) { 
-    
-       body {
-        font-size: 19px;
-    }
-    
 
     .title__container {
         width: 25%;
