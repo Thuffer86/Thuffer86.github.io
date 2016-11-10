@@ -58,7 +58,7 @@ body {
   margin: 0 .7em;
   padding: .5em 0;
   color: #242424;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .navigation a:hover {
@@ -156,7 +156,7 @@ body {
 }
 
 .services__container p {
-    font-size: .8em;
+    font-size: .9em;
     color: #646464;
     padding-bottom: 5em;
     line-height: 1.7em;
@@ -371,12 +371,12 @@ footer {
     text-decoration: none;
     color: #fefefe;
     font-weight: 700;
-    font-size: .8em;
+    font-size: .9em;
 }
 
 
 footer p {
-    font-size: .8em;
+    font-size: .9em;
     line-height: 1.7em;
     max-width: 80%;
     margin: 0 auto;
