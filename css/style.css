@@ -21,15 +21,15 @@ body {
 .logo {
   margin: 0 0 0 0;
   font-size: 1.5em;
-  padding-bottom: .5em;
+  padding: .5em;
+  font-weight: 400;
 }
 
-.logo a {
-  color: #242424;
+.logo  {
+  color: #424242;
 }
 
 .logo span {
-    font-weight: 700;
     color: #5B8DEF;
 }
 
@@ -37,10 +37,10 @@ body {
     list-style: none;
 }
 
-.navigation a, .logo a {
+.navigation a, .logo  {
     text-decoration: none;
-    font-weight: 400;
-    font-family: 'roboto', sans-serif;
+      font-family: 'roboto', sans-serif;
+
 }
 
 .header__container a {
@@ -57,8 +57,8 @@ body {
   display: block;
   margin: 0 .7em;
   padding: .5em 0;
-  color: #242424;
-  font-size: 1.1em;
+  color: #424242;
+  font-size: 1em;
 }
 
 .navigation a:hover {
@@ -394,7 +394,8 @@ footer p {
 @media(min-width: 42em){
     
     .logo {
-        padding-bottom: 0;    
+        padding-bottom: 0;
+        font-size: 1.3em;
     }
     
     .flex-container {
@@ -465,7 +466,7 @@ footer p {
     font-size: .9em;
     }
     .flex-container {
-        padding: .9em 15%;
+        padding: .8em 15%;
     }
     
     .title__container {
