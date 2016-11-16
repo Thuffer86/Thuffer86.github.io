@@ -183,7 +183,7 @@ body {
 .work__container h1 {
     padding-bottom: 1.5em;
     color: #fefefe;
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: 400;
 }
 
@@ -200,7 +200,7 @@ body {
     font-size: 1em;
     color: #fefefe;
     border: solid 2px #fefefe;
-    padding: .7em .8em;
+    padding: .8em 1em;
     transition: .35s;
     cursor: pointer;
     display: block;
