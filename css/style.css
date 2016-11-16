@@ -394,7 +394,6 @@ footer p {
 @media(min-width: 42em){
     
     .logo {
-        padding-bottom: 0;
         font-size: 1.3em;
     }
     
