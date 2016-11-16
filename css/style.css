@@ -461,6 +461,9 @@ footer p {
         font-size: 18px;
     }
     
+.navigation a {
+    font-size: .9em;
+    }
     .flex-container {
         padding: .9em 15%;
     }
