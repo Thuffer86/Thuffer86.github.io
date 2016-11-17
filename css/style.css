@@ -28,7 +28,7 @@ body {
 }
 
 .logo span {
-    color: #FA5370;
+    color: #01D6A2;
 }
 
 .logo, .navigation {
@@ -60,7 +60,7 @@ body {
 }
 
 .navigation a:hover {
-    color: #FA5370;
+    color: #01D6A2;
 }
 
 .header__container {
