@@ -28,7 +28,7 @@ body {
 }
 
 .logo span {
-    color: #01D6A2;
+    color: #FA5370;
 }
 
 .logo, .navigation {
@@ -60,7 +60,7 @@ body {
 }
 
 .navigation a:hover {
-    color: #01D6A2;
+    color: #FA5370;
 }
 
 .header__container {
@@ -156,7 +156,7 @@ body {
 
 .services__container p {
     font-size: 1em;
-    color: #646464;
+    color: #3e4c69;
     padding-bottom: 5em;
     line-height: 1.7em;
     font-family: 'roboto', sans-serif;
@@ -545,6 +545,10 @@ footer p {
     
     .services__container {
         padding: 6em 0;   
+    }
+    
+    .services__container h1 {
+        font-size: 1.2em;
     }
     
     .services__container p {
