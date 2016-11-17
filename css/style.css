@@ -173,10 +173,9 @@ body {
 
 .work__container article {
     width: 100%;
-    background-color: #5b8def;
+    background-color: #374561;
     padding: 5em 0;
     text-align: center;
-    border-bottom: solid 1px #5b8def;
 }
 
 .work__container h1 {
@@ -210,8 +209,8 @@ body {
 
 
 .work__container button:hover {
-    background-color: #f9f9f9;
-    color: #5b8def;
+    background-color: #46E1BB;
+    color: #f9f9f9; !important;
 }
 
 .weather {
@@ -559,12 +558,16 @@ footer p {
         width: 25%;
     }
     
+    .work__container h1 {
+        font-size: 1.2em;
+    }
+    
     .contact__container {
         padding: 9em 25%;
     }
     
     .header__container {
-        padding: 10em 0;
+        padding: 8em 0;
     }
 }
 
