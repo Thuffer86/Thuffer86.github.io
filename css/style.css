@@ -194,11 +194,11 @@ body {
 .work__container button {
     font-weight: 400;
     text-align: center;
-    background-color: transparent;
+    background-color: #01d6a2;
     letter-spacing: 1px;
     font-size: 1em;
     color: #f9f9f9;
-    border: solid 2px #f9f9f9;
+    border: solid 1px #01d6a2;
     padding: .7em 1.1em;
     transition: .35s;
     cursor: pointer;

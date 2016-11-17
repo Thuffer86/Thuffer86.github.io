@@ -5,7 +5,6 @@
 <style type="text/css">
 	.st0{fill:#374561;}
 	.st1{fill:#FA5370;}
-	.st2{fill:#01D6A2;}
 </style>
 <g>
 	<path class="st0" d="M474.4,72.9c0-0.7,0-1.5-0.7-2.2v-0.8c-0.8-0.7-0.8-1.4-1.5-2.2l-89.9-89.9c-0.8-0.7-1.5-0.7-2.2-1.5h-0.8
@@ -32,13 +31,13 @@
 		V177.7h15v247.1h14.9V171C212.3,169.5,212.3,168,211.5,166.5L211.5,166.5z M156.8,162.8l18-35.9l18,35.9H156.8z"/>
 	<path class="st0" d="M107.4,72.9H32.5c-4.5,0-7.5,3-7.5,7.5v344.5h15v-22.5h37.4v-15H40V335h37.4v-15H40v-59.9h37.4v-15H40v-59.9
 		h37.4v-15H40v-44.9h37.4v-15H40V87.8h59.9v337h15V80.4C114.9,75.9,111.9,72.9,107.4,72.9L107.4,72.9z"/>
-	<rect x="62.5" y="13" class="st2" width="89.9" height="15"/>
-	<rect x="167.3" y="13" class="st2" width="30" height="15"/>
-	<rect x="122.4" y="42.9" class="st2" width="74.9" height="15"/>
-	<rect x="287.1" y="102.8" class="st2" width="149.8" height="15"/>
-	<rect x="242.2" y="140.3" class="st2" width="134.8" height="15"/>
-	<rect x="242.2" y="177.7" class="st2" width="194.7" height="15"/>
-	<rect x="242.2" y="207.7" class="st2" width="44.9" height="15"/>
-	<rect x="392" y="140.3" class="st2" width="44.9" height="15"/>
+	<rect x="62.5" y="13" class="st0" width="89.9" height="15"/>
+	<rect x="167.3" y="13" class="st0" width="30" height="15"/>
+	<rect x="122.4" y="42.9" class="st0" width="74.9" height="15"/>
+	<rect x="287.1" y="102.8" class="st0" width="149.8" height="15"/>
+	<rect x="242.2" y="140.3" class="st0" width="134.8" height="15"/>
+	<rect x="242.2" y="177.7" class="st0" width="194.7" height="15"/>
+	<rect x="242.2" y="207.7" class="st0" width="44.9" height="15"/>
+	<rect x="392" y="140.3" class="st0" width="44.9" height="15"/>
 </g>
 </svg>
