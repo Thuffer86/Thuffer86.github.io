@@ -6,7 +6,7 @@
 	.st0{fill:#FEFEFE;}
 	.st1{fill:#FAFAFA;}
 	.st2{fill:#374561;}
-	.st3{fill:#FAFAFA;stroke:#01D6A2;stroke-width:18;stroke-miterlimit:10;}
+	.st3{fill:#FAFAFA;stroke:#374561;stroke-width:18;stroke-miterlimit:10;}
 </style>
 <g>
 	<path class="st0" d="M457.2,29.4v377.5c0,5.3-4.4,9.7-9.7,9.7H11.9c-5.3,0-9.7-4.4-9.7-9.7V29.4H457.2z"/>
