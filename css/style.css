@@ -17,7 +17,7 @@ body{font-family:'Montserrat', sans-serif;color:#374561;}
 .title__container button:hover{background-color:#46E1BB;color:#f9f9f9;!important;}
 .services__container{height:100%;color:#374561;width:80%;margin:0 auto;text-align:center;display:flex;justify-content:space-between;align-items:center;flex-flow:column wrap;padding:5em 0 0 0;}
 .service{height:auto;width:100%;margin:1em 0;}
-.service__img{width:140px;height:140px;margin:0 auto 3em auto;}
+.service__img{width:120px;height:120px;margin:0 auto 3em auto;}
 #design{background-image:url(../images/design.svg);}
 #frontEnd{background-image:url(../images/FEdev.svg);}
 #backEnd{background-image:url(../images/BEdev.svg);}
@@ -87,7 +87,7 @@ footer p{font-size:.9em;line-height:1.7em;max-width:80%;margin:0 auto;font-famil
 .services__container{width:90%;flex-flow:row wrap;justify-content:space-around;padding:7em 0;}
 .service{width:28%;height:auto;margin:0;}
 .services__container p{font-size:.7em;padding-bottom:0;}
-.service__img{width:130px;height:130px;margin-bottom:3em;}
+.service__img{width:95px;height:95px;margin-bottom:3em;}
 .contact__container{padding:5em 15%;}
 footer{padding:2em 0;}
 .social__container li a{font-size:.8em;}
