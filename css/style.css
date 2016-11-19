@@ -84,7 +84,7 @@ footer p{font-size:.9em;line-height:1.7em;max-width:80%;margin:0 auto;font-famil
 .flex-container{padding:.6em 15%;}
 .title__container{padding-left:15%;width:33.33%;}
 .title__container h2{font-size:.8em;}
-.services__container{width:90%;flex-flow:row wrap;justify-content:space-around;padding:7em 0;}
+.services__container{width:90%;flex-flow:row wrap;justify-content:space-around;padding:6em 0;}
 .service{width:28%;height:auto;margin:0;}
 .services__container p{font-size:.7em;padding-bottom:0;}
 .service__img{width:95px;height:95px;margin-bottom:3em;}
@@ -96,7 +96,7 @@ footer p{font-size:.7em;line-height:1.7em;max-width:80%;margin:0 auto;font-famil
 @media (min-width:80em){.title__container{width:25%;}
 .title__container h1{font-size:1.6em;}
 .service{height:auto;}
-.services__container{padding:6em 0;}
+.services__container{padding:5em 0;}
 .services__container h1{font-size:1.2em;}
 .services__container p{font-size:.7em;}
 .work__container article{width:25%;}
