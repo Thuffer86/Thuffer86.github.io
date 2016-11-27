@@ -236,6 +236,16 @@ body {
     background-size: cover;
 }
 
+.colors {
+    background: url(../images/color.jpg); 
+    background-size: cover;
+}
+
+.brew {
+    background: url(../images/brew.jpg); 
+    background-size: cover;
+}
+
 .contact__container {
     padding: 5em 0;
     background-color: #f9f9f9;
@@ -503,7 +513,7 @@ footer p {
         font-size: .7em;
     }
     .work__container article {
-        width: 25%;
+        width: 33.3%;
     }
     .work__container h1 {
         font-size: 1.2em;
