@@ -474,6 +474,7 @@ footer p {
     .work__container {
         flex-flow: row wrap;
     }
+    
     .work__container article {
         width: 50%;
         border-bottom: none;
