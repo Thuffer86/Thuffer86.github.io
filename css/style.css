@@ -31,8 +31,12 @@ body {
 .logo__container h1 {
     margin: 15px 0 15px 0px;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 300;
     font-family: 'open sans', sans-serif;
+}
+
+.logo__container span {
+    margin-left: -3px;
 }
 
 
