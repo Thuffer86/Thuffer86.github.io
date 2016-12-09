@@ -31,8 +31,9 @@ body {
 .logo__container h1 {
     margin: 15px 0 15px 0px;
     font-size: 22px;
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'open sans', sans-serif;
+    letter-spacing: 3px;
 }
 
 .logo__container span {
