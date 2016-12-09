@@ -31,13 +31,13 @@ body {
 .logo__container h1 {
     margin: 15px 0 15px 0px;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 300;
     font-family: 'open sans', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
 }
 
 .logo__container span {
-    margin-left: -3px;
+    margin-left: -4px;
 }
 
 
@@ -65,8 +65,8 @@ body {
     margin: 0 .7em;
     padding: .5em 0;
     color: #374561;
-    font-size: 1.1em;
-    font-weight: 300;
+    font-size: 1em;
+    font-weight: 700;
 }
 
 .navigation a:hover {
@@ -444,7 +444,7 @@ footer p {
         flex-flow: row;
     }
     .navigation a {
-        font-size: .9em;
+        font-size: .8em;
     }
     .header__container {
         background: url(../images/bg.jpg) center center no-repeat;
