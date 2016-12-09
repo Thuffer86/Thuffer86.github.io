@@ -24,23 +24,7 @@ body {
     width: 36px;
     height: 36px;
     margin: 0 auto;
-    animation: animate 1.75s linear infinite
-}
-
-@keyframes animate {
-    0% {
-        transform: rotate(0);
-    }
-  
-  50% {
-        border-radius: 50%;
-        opacity: .8;
-        border: groove 14px #01D6A2;
-  }
-
-    100% {
-        transform: rotate(360deg);
-    }
+    animation: animate 1.75s linear infinite;
 }
 
 
@@ -52,14 +36,11 @@ body {
 }
 
 
-
 .navigation {
     list-style: none;
 }
 
-.navigation a
-
-{
+.navigation a {
     text-decoration: none;
     font-family: 'roboto', sans-serif;
 }
@@ -413,6 +394,23 @@ footer p {
     margin: 0 auto;
     font-family: 'roboto', sans-serif;
 }
+
+@keyframes animate {
+    0% {
+        transform: rotate(0);
+    }
+  
+  50% {
+        border-radius: 50%;
+        opacity: .8;
+        border: groove 14px #01D6A2;
+  }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
 
 @media(min-width:42em) {
     .logo {
