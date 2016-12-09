@@ -30,10 +30,10 @@ body {
 
 .logo__container h1 {
     margin: 15px 0 15px 0px;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 300;
     font-family: 'open sans', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 .logo__container span {
@@ -67,6 +67,7 @@ body {
     color: #374561;
     font-size: 1em;
     font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .navigation a:hover {
