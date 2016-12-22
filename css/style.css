@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     padding: 1.2em 10%;
     border-bottom: solid 1px #cecece;
     flex-flow: column wrap;
@@ -30,10 +30,9 @@ body {
 
 .logo__container h1 {
     margin: 15px 0 15px 0px;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 300;
-    font-family: 'open sans', sans-serif;
-    letter-spacing: 2px;
+    font-family: 'yellowtail', cursive;
 }
 
 .logo__container span {
@@ -45,10 +44,6 @@ body {
     list-style: none;
 }
 
-.navigation a {
-    text-decoration: none;
-    font-family: 'roboto', sans-serif;
-}
 
 .header__container a {
     text-decoration: none;
@@ -61,13 +56,14 @@ body {
 }
 
 .navigation a {
+    text-decoration: none;
+    font-family: 'montserrat', sans-serif;
     display: block;
     margin: 0 .7em;
     padding: .5em 0;
     color: #374561;
     font-size: 1em;
-    font-weight: 700;
-    letter-spacing: 1px;
+    font-weight: 400;
 }
 
 .navigation a:hover {
@@ -81,7 +77,7 @@ body {
 }
 
 .title__container {
-    color: #f9f9f9;
+    color: #ffffff;
     width: 75%;
     margin: 0 auto;
     text-align: center;
@@ -108,9 +104,9 @@ body {
     text-align: center;
     background-color: transparent;
     letter-spacing: 1px;
-    font-size: 1em;
-    color: #f9f9f9;
-    padding: .7em .8em;
+    font-size: 1.1em;
+    color: #ffffff;
+    padding: .8em .9em;
     border: solid 1px #01D6A2;
     transition: .35s;
     cursor: pointer;
@@ -120,7 +116,7 @@ body {
 
 .title__container button:hover {
     background-color: #46E1BB;
-    color: #f9f9f9 !important;
+    color: #ffffff !important;
     transform: scale(1.05);
 }
 
@@ -178,7 +174,7 @@ body {
 
 .work__container {
     display: flex;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     flex-flow: column wrap;
 }
 
@@ -191,14 +187,14 @@ body {
 
 .work__container h1 {
     padding-bottom: 1.5em;
-    color: #f9f9f9;
+    color: #ffffff;
     font-size: 1.3em;
     font-weight: 400;
 }
 
 .work__container a {
     text-decoration: none;
-    color: #f9f9f9;
+    color: #ffffff;
 }
 
 .work__container button {
@@ -207,7 +203,7 @@ body {
     background-color: #01d6a2;
     letter-spacing: 1px;
     font-size: 1em;
-    color: #f9f9f9;
+    color: #ffffff;
     border: solid 1px #01d6a2;
     padding: .7em 1.1em;
     transition: .35s;
@@ -219,7 +215,7 @@ body {
 
 .work__container button:hover {
     background-color: #46E1BB;
-    color: #f9f9f9 !important;
+    color: #ffffff !important;
     transform: scale(1.05);
 }
 
@@ -260,7 +256,7 @@ body {
 
 .contact__container {
     padding: 5em 0;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
     display: block;
 }
 
@@ -288,7 +284,7 @@ textarea {
     max-width: 100%;
     margin: 8px 0;
     padding: 10px 15px;
-    background: #f9f9f9;
+    background: #ffffff;
     color: #374561;
     font-size: 1em;
     border: 1px solid #374561;
@@ -301,7 +297,7 @@ input[type=submit] {
 
 input[type=submit],
 textarea[type=submit] {
-    color: #f9f9f9;
+    color: #ffffff;
     border-color: #01D6A2;
     background-color: #01D6A2;
     padding: .7em 1.1em;
@@ -342,7 +338,7 @@ textarea::placeholder {
 input.error,
 textarea.error {
     background: #AD4747;
-    color: #f9f9f9;
+    color: #ffffff;
 }
 
 input.error::-webkit-input-placeholder,
@@ -372,7 +368,7 @@ textarea {
 footer {
     padding: 3em 0;
     background-color: #374561;
-    color: #f9f9f9;
+    color: #ffffff;
     text-align: center;
 }
 
@@ -383,7 +379,7 @@ footer {
 
 .social__container li a {
     text-decoration: none;
-    color: #f9f9f9;
+    color: #ffffff;
     font-weight: 700;
     font-size: .9em;
     transition: .35s;
@@ -452,17 +448,17 @@ footer p {
         background-size: cover;
         padding: 7em 0;
     }
-    .title__container {
-        width: 40%;
-        margin: 0;
-        padding: 0 0 0 10%;
-        text-align: left;
-    }
+
     .space {
         display: none;
     }
+    
+    .title__container {
+        width: 50%;
+        
+    }
     .title__container button {
-        margin: 0;
+        margin: 0 auto;
     }
     .services__container {
         width: 75%;
@@ -494,8 +490,12 @@ footer p {
         padding: 0em 15%;
     }
     .title__container {
-        padding-left: 15%;
         width: 33.33%;
+    }
+    
+    .title__container h1 {
+        font-size: 1.8em;
+        
     }
     .title__container h2 {
         font-size: .8em;
@@ -536,20 +536,32 @@ footer p {
         margin: 0 auto;
         font-family: 'roboto', sans-serif;
     }
+    
+    .navigation a {
+    margin: 0 1em;
+        
+    }
 }
 
 @media (min-width:80em) {
-    .title__container {
-        width: 25%;
-    }
+    
+    
     .title__container h1 {
-        font-size: 1.6em;
+        font-size: 2.4em;
     }
+    
+    .title__container h2 {
+        font-size: .9em;
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    
     .service {
         height: auto;
     }
     .services__container {
-        padding: 5em 0;
+        padding: 7em 0;
     }
     .services__container h1 {
         font-size: 1em;
@@ -567,6 +579,7 @@ footer p {
         padding: 9em 25%;
     }
     .header__container {
-        padding: 8em 0;
+        padding: 9em 0;
     }
+
 }
