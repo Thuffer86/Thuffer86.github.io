@@ -72,7 +72,8 @@ body {
 }
 
 .header__container {
-    background-color: #374561;
+    background: url(../images/bg.jpg) center center no-repeat;
+        background-size: cover;
     padding: 5em 0;
     border-bottom: solid 1px #acacac;
 }
