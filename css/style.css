@@ -64,6 +64,7 @@ body {
     color: #374561;
     font-size: 1em;
     font-weight: 400;
+    transition: .35s;
 }
 
 .navigation a:hover {
@@ -103,7 +104,6 @@ body {
     margin: 0 auto;
     text-align: center;
     background-color: transparent;
-    letter-spacing: 1px;
     font-size: 1.1em;
     color: #ffffff;
     padding: .8em .9em;
@@ -115,8 +115,8 @@ body {
 }
 
 .title__container button:hover {
-    background-color: #46E1BB;
-    color: #ffffff !important;
+    background-color: #1feab5;
+    border-color: #1feab5;
     transform: scale(1.05);
 }
 
@@ -160,6 +160,7 @@ body {
 .services__container h1 {
     font-size: 1.4em;
     padding-bottom: 1em;
+    font-weight: 300;
 }
 
 .services__container p {
@@ -170,6 +171,7 @@ body {
     font-family: 'roboto', sans-serif;
     max-width: 450px;
     margin: 0 auto;
+    text-align: left;
 }
 
 .work__container {
@@ -214,8 +216,8 @@ body {
 }
 
 .work__container button:hover {
-    background-color: #46E1BB;
-    color: #ffffff !important;
+    background-color: #1feab5;
+    border-color: #1feab5;
     transform: scale(1.05);
 }
 
@@ -465,7 +467,7 @@ footer p {
         padding-top: 7em;
     }
     .services__container h1 {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
     .services__container p {
         font-size: .9em;
@@ -473,6 +475,10 @@ footer p {
     }
     .work__container {
         flex-flow: row wrap;
+    }
+    
+    .work__container h1 {
+        font-size: 1.1em;    
     }
     
     .work__container article {
@@ -507,18 +513,22 @@ footer p {
         padding: 6em 0;
     }
     .service {
-        width: 28%;
+        width: 27%;
         height: auto;
         margin: 0;
+    }
+    
+    .services__container {
+        padding: 5em 0;
     }
     .services__container p {
         font-size: .7em;
         padding-bottom: 0;
     }
     .service__img {
-        width: 80px;
-        height: 80px;
-        margin-bottom: 3em;
+        width: 75px;
+        height: 75px;
+        margin-bottom: 2em;
     }
     .contact__container {
         padding: 5em 15%;
@@ -560,9 +570,7 @@ footer p {
     .service {
         height: auto;
     }
-    .services__container {
-        padding: 7em 0;
-    }
+
     .services__container h1 {
         font-size: 1em;
     }
@@ -573,7 +581,7 @@ footer p {
         width: 33.3%;
     }
     .work__container h1 {
-        font-size: 1.2em;
+        font-size: 1em;
     }
     .contact__container {
         padding: 9em 25%;
