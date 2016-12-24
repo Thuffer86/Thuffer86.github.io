@@ -73,7 +73,7 @@ body {
 
 .header__container {
     background: url(../images/bg.jpg) center center no-repeat;
-        background-size: cover;
+    background-size: cover;
     padding: 5em 0;
     border-bottom: solid 1px #acacac;
 }
@@ -141,8 +141,8 @@ body {
 }
 
 .service__img {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto 3em auto;
 }
 
@@ -223,22 +223,22 @@ body {
 }
 
 .weather {
-    background: url(../images/weather.jpg) center center no-repeat;
+    background: url(../images/weather2.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .loc8r {
-    background: url(../images/loc8r.jpg) center center no-repeat;
+    background: url(../images/loc8r2.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .animation {
-    background: url(../images/animation.jpg) center center no-repeat;
+    background: url(../images/animation2.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .form {
-    background: url(../images/form.jpg) center center no-repeat;
+    background: url(../images/form2.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -248,12 +248,12 @@ body {
 }
 
 .colors {
-    background: url(../images/color.jpg); 
+    background: url(../images/color2.jpg); 
     background-size: cover;
 }
 
 .brew {
-    background: url(../images/brew.jpg); 
+    background: url(../images/brew2.jpg); 
     background-size: cover;
 }
 
@@ -370,7 +370,8 @@ textarea {
 
 footer {
     padding: 3em 0;
-    background-color: #374561;
+    background: url(../images/bg.jpg) center center no-repeat;
+    background-size: cover;
     color: #ffffff;
     text-align: center;
 }
