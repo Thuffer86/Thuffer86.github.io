@@ -214,8 +214,8 @@ body {
 .work__container h1 {
     padding-bottom: 1.5em;
     color: #ffffff;
-    font-size: 1.3em;
-    font-weight: 400;
+    font-size: 1.6em;
+    font-weight: 700;
 }
 
 .work__container a {
@@ -231,7 +231,7 @@ body {
     font-size: 1em;
     color: #ffffff;
     border: solid 1px #01d6a2;
-    padding: .8em 1.2em;
+    padding: 1em 1.4em;
     transition: .35s;
     cursor: pointer;
     display: block;
@@ -504,7 +504,7 @@ footer p {
     }
     
     .work__container h1 {
-        font-size: 1.1em;    
+        font-size: 1.2em;    
     }
     
     .work__container article {
@@ -623,9 +623,7 @@ footer p {
     .work__container article {
         width: 33.33%;
     }
-    .work__container h1 {
-        font-size: 1em;
-    }
+
     .contact__container {
         padding: 7em 25%;
     }
