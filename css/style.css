@@ -6,13 +6,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: #374561;
+    background-color: #fff;
 }
 
 .flex-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ffffff;
+    background-color: #fff;
     padding: 1.2em 10%;
     border-bottom: solid 1px #cecece;
     flex-flow: column wrap;
@@ -105,9 +106,9 @@ body {
     margin: 0 auto;
     text-align: center;
     background-color: transparent;
-    font-size: 1.1em;
+    font-size: 1em;
     color: #ffffff;
-    padding: .8em .9em;
+    padding: 1.2em .8em;
     border: solid 1px #01D6A2;
     transition: .35s;
     cursor: pointer;
@@ -122,16 +123,37 @@ body {
 }
 
 .services__container {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 4em 0 0 0;
+}
+
+.services__container h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+ hr {
+    width: 60px;
+    height: 3px;
+    background-color: #01d6a2;
+    border: none;
+    margin: 1em auto 2.5em auto;
+}
+
+
+.services__container-flex {
     height: 100%;
     color: #374561;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-flow: column wrap;
-    padding: 5em 0 0 0;
+    background-color: #fff;
 }
 
 .service {
@@ -141,9 +163,9 @@ body {
 }
 
 .service__img {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto 3em auto;
+    width: 110px;
+    height: 110px;
+    margin: 0 auto 2em auto;
 }
 
 #design {
@@ -158,21 +180,22 @@ body {
     background-image: url(../images/BEdev.svg);
 }
 
-.services__container h1 {
-    font-size: 1.4em;
+
+.services__container-flex h1 {
+    font-size: 1.3em;
     padding-bottom: 1em;
-    font-weight: 300;
+    font-weight: 400;
 }
 
-.services__container p {
-    font-size: 1em;
+.services__container-flex p {
+    font-size: .9em;
     color: #3e4c69;
-    padding-bottom: 5em;
+    padding-bottom: 4em;
     line-height: 1.7em;
     font-family: 'roboto', sans-serif;
     max-width: 450px;
     margin: 0 auto;
-    text-align: left;
+    text-align: center;
 }
 
 .work__container {
@@ -223,22 +246,22 @@ body {
 }
 
 .weather {
-    background: url(../images/weather2.jpg) center center no-repeat;
+    background: url(../images/weather.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .loc8r {
-    background: url(../images/loc8r2.jpg) center center no-repeat;
+    background: url(../images/loc8r.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .animation {
-    background: url(../images/animation2.jpg) center center no-repeat;
+    background: url(../images/animation.jpg) center center no-repeat;
     background-size: cover;
 }
 
 .form {
-    background: url(../images/form2.jpg) center center no-repeat;
+    background: url(../images/form.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -248,25 +271,24 @@ body {
 }
 
 .colors {
-    background: url(../images/color2.jpg); 
+    background: url(../images/color.jpg); 
     background-size: cover;
 }
 
 .brew {
-    background: url(../images/brew2.jpg); 
+    background: url(../images/brew.jpg); 
     background-size: cover;
 }
 
 .contact__container {
     padding: 5em 0;
-    background-color: #ffffff;
+    background-color: #fff;
     display: block;
 }
 
 .contact__container h1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 400;
-    padding-bottom: 1em;
     margin: 0 auto;
     text-align: center;
     color: #374561;
@@ -287,7 +309,7 @@ textarea {
     max-width: 100%;
     margin: 8px 0;
     padding: 10px 15px;
-    background: #ffffff;
+    background-color: #fff;
     color: #374561;
     font-size: 1em;
     border: 1px solid #374561;
@@ -370,9 +392,7 @@ textarea {
 
 footer {
     padding: 3em 0;
-    background: url(../images/bg.jpg) center center no-repeat;
-    background-size: cover;
-    color: #ffffff;
+    background-color: #374561;
     text-align: center;
 }
 
@@ -383,18 +403,19 @@ footer {
 
 .social__container li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #f2f7ff;
     font-weight: 700;
     font-size: .9em;
     transition: .35s;
 }
 
 .social__container li a:hover  {
-    font-size: 1em;
+    color: #01d6a2;
 }
 
 footer p {
     font-size: .9em;
+    color: #f2f7ff;
     line-height: 1.7em;
     max-width: 80%;
     margin: 0 auto;
@@ -459,19 +480,24 @@ footer p {
     
     .title__container {
         width: 50%;
-        
+        margin: 0;
+        padding: 0 0 0 10%;
+        text-align: left;
     }
     .title__container button {
-        margin: 0 auto;
+        margin: 0;
     }
-    .services__container {
+    
+ hr {
+        width: 70px;
+    }
+    .services__container-flex {
         width: 75%;
-        padding-top: 7em;
     }
-    .services__container h1 {
+    .services__container-flex h1 {
         font-size: 1.1em;
     }
-    .services__container p {
+    .services__container-flex p {
         font-size: .9em;
         padding-bottom: 7em;
     }
@@ -499,6 +525,7 @@ footer p {
     }
     .title__container {
         width: 33.33%;
+        padding: 0 0 0 15%;
     }
     
     .title__container h1 {
@@ -508,11 +535,11 @@ footer p {
     .title__container h2 {
         font-size: .8em;
     }
-    .services__container {
+    .services__container-flex {
         width: 90%;
         flex-flow: row wrap;
         justify-content: space-around;
-        padding: 6em 0;
+        padding:0 0 6em 0;
     }
     .service {
         width: 27%;
@@ -521,19 +548,26 @@ footer p {
     }
     
     .services__container {
-        padding: 5em 0;
+        width: 100%;
     }
-    .services__container p {
+    
+ hr {
+        width: 80px;
+        margin: 1em auto 3em auto;
+
+    }
+    
+    .services__container-flex p {
         font-size: .7em;
         padding-bottom: 0;
     }
     .service__img {
-        width: 75px;
-        height: 75px;
+        width: 65px;
+        height: 65px;
         margin-bottom: 2em;
     }
     .contact__container {
-        padding: 5em 15%;
+        padding: 5em 10%;
     }
     footer {
         padding: 2em 0;
@@ -559,13 +593,13 @@ footer p {
     
     
     .title__container h1 {
-        font-size: 2.4em;
+        font-size: 2.2em;
     }
     
     .title__container h2 {
         font-size: .9em;
         width: 80%;
-        margin: 0 auto;
+        margin: 0;
     }
     
     
@@ -573,14 +607,14 @@ footer p {
         height: auto;
     }
 
-    .services__container h1 {
+    .services__container-flex h1 {
         font-size: 1em;
     }
-    .services__container p {
+    .services__container-flex p {
         font-size: .7em;
     }
     .work__container article {
-        width: 33.3%;
+        width: 33.33%;
     }
     .work__container h1 {
         font-size: 1em;

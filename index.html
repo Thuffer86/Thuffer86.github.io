@@ -46,22 +46,26 @@
             <a href="#contact"><button>Get In Touch</button></a>
         </div>
     </header>
-    <main class="services__container" id="services">
-        <div class="service">
-            <div class="service__img" id="frontEnd"></div>
-            <h1>Front-end</h1>
-            <p>I have an understanding of design, but development is my passion. I've used many different frameworks and libraries. When coding out structure and styles, I run into very few problems because I keep my code maintainable using the BEM methodology. I started learning Javascript from vanilla and then I tried JQuery, then finally NodeJS.</p>
-        </div>
-        <div class="service">
-            <div class="service__img" id="design"></div>
-            <h1>Design</h1>
-            <p>I'm proficient with both Adobe Illustrator and Photoshop. I understand UX conecpts and I create human-friendly designs that engage users. A great design must be aesthetically pleasing but also be functional and easily understood. If you would like to see some more examples of my designs, check out my LinkedIn page or follow me on Twitter.</p>
-        </div>
-        <div class="service">
-            <div class="service__img" id="backEnd"></div>
-            <h1>Back-end</h1>
-            <p>Back-End Development is something that I've just started to pick up this year. I consider myself a full-stack Javascript developer. That means that I use Javascript, with NodeJS and MongoDB to build full-stack websites. I've even gone so far as to create web applications on my local machine, and I've even launched a couple apps on heroku.</p>
-        </div>
+    <main class="services__container">
+        <h1>Services Provided</h1>
+        <hr/>
+        <main class="services__container-flex">
+            <div class="service">
+                <div class="service__img" id="frontEnd"></div>
+                <h1>Front-end</h1>
+                <p>I have an understanding of design, but development is my passion. I've used many different frameworks and libraries. When coding out structure and styles, I run into very few problems because I keep my code maintainable using the BEM methodology. I started learning Javascript from vanilla and then I tried JQuery, then finally NodeJS.</p>
+            </div>
+            <div class="service">
+                <div class="service__img" id="design"></div>
+                <h1>Design</h1>
+                <p>I'm proficient with both Adobe Illustrator and Photoshop. I understand UX conecpts and I create human-friendly designs that engage users. A great design must be aesthetically pleasing but also be functional and easily understood. If you would like to see some more examples of my designs, check out my LinkedIn page or follow me on Twitter.</p>
+            </div>
+            <div class="service">
+                <div class="service__img" id="backEnd"></div>
+                <h1>Back-end</h1>
+                <p>Back-End Development is something that I've just started to pick up this year. I consider myself a full-stack Javascript developer. That means that I use Javascript, with NodeJS and MongoDB to build full-stack websites. I've even gone so far as to create web applications on my local machine, and I've even launched a couple apps on heroku.</p>
+            </div>
+        </main>
     </main>
     <main class="work__container" id="work">
         <article class="loc8r">
@@ -96,6 +100,7 @@
     <main class="contact__container" id="contact">
       <div class="contact__align">
         <h1>Contact Me</h1>
+        <hr/>
         <form class="form__fluid" name="addData" method="post" action="/contact/send">
           <input id="userName" type="text" placeholder="Name" name="name" required=''>
           <input id="userEmail" type="email" placeholder="Email" name="email" required=''>
