@@ -231,7 +231,7 @@ body {
     font-size: 1em;
     color: #ffffff;
     border: solid 1px #01d6a2;
-    padding: .7em 1.1em;
+    padding: .8em 1.2em;
     transition: .35s;
     cursor: pointer;
     display: block;
@@ -325,7 +325,7 @@ textarea[type=submit] {
     color: #ffffff;
     border-color: #01D6A2;
     background-color: #01D6A2;
-    padding: .7em 1.1em;
+    padding: .8em 1.2em;
     width: auto;
     font-weight: 400;
     -webkit-transition: .35s;
@@ -488,9 +488,7 @@ footer p {
         margin: 0;
     }
     
- hr {
-        width: 70px;
-    }
+
     .services__container-flex {
         width: 75%;
     }
@@ -535,6 +533,11 @@ footer p {
     .title__container h2 {
         font-size: .8em;
     }
+    
+    .services__container h1 {
+        font-size: 1.2em;
+    }
+    
     .services__container-flex {
         width: 90%;
         flex-flow: row wrap;
@@ -552,7 +555,6 @@ footer p {
     }
     
  hr {
-        width: 80px;
         margin: 1em auto 3em auto;
 
     }
@@ -569,6 +571,11 @@ footer p {
     .contact__container {
         padding: 5em 10%;
     }
+    
+    .contact__container h1 {
+        font-size: 1.2em;    
+    }
+    
     footer {
         padding: 2em 0;
     }
@@ -620,7 +627,7 @@ footer p {
         font-size: 1em;
     }
     .contact__container {
-        padding: 9em 25%;
+        padding: 7em 25%;
     }
     .header__container {
         padding: 9em 0;
