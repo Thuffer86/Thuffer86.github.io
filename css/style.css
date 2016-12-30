@@ -198,87 +198,104 @@ body {
     text-align: center;
 }
 
+
 .work__container {
-    display: flex;
-    background-color: #eff1f4;
-    flex-flow: column wrap;
-    border-top: solid 1px #d7dae0;
-    border-bottom: solid 1px #d7dae0;
-    padding: 40px 0;
+  max-width: 1100px;
+  background-color: #edeff2;
+  margin: 0 auto;
+  padding: 3em 0;
+  border-top: solid 1px #cfd2d6;
+  border-bottom: solid 1px #cfd2d6;
 }
 
-.work__container article {
-    margin: 25px auto;
+.cards {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.card {
+  position: relative;
+  margin-bottom: 50px;
+  padding-bottom: 30px;
+  background: #fff;
+  color: #374561;
+  text-decoration: none;
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+@media (max-width: 700px) {
+  .card {
     width: 80%;
-    background-color: #374561;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    padding: 4.5em 0;
-    text-align: center;
-    border-radius: 2px;
+  }
+}
+@media (min-width: 700px) {
+  .card {
+    max-width: 320px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+  .card:nth-child(even) {
+    margin-right: 0;
+  }
+}
+@media (min-width: 980px) {
+  .card:nth-child(even) {
+    margin-right: 20px;
+  }
+  .card:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+.card span {
+  display: block;
+}
+.card .card-summary {
+  padding: 5% 5% 3% 5%;
+  font-weight: 400;
+  font-family: 'open sans', sans-serif;
+  font-size: .9em;
+}
+.card .card-header {
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
+
+.card .card-title {
+  background: rgb(55, 69, 97);
+  padding: 3.5% 0 2.5% 0;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.card .card-title h3 {
+  font-size: 1.1em;
+  line-height: 1.2;
+  font-weight: 400;
+  font-family: 'montserrat', sans-serif;
+  padding: 0 5%;
+  margin: 0;
 }
 
 
-.work__container a {
-    text-decoration: none;
-    color: #ffffff;
+img {
+  max-width: 100%;
 }
 
-.work__container button {
-    font-weight: 400;
-    text-align: center;
-    background-color: #01d6a2;
-    letter-spacing: 1px;
-    font-size: 1em;
-    color: #ffffff;
-    border: solid 1px #01d6a2;
-    padding: 1em 1.4em;
-    transition: .35s;
-    cursor: pointer;
-    display: block;
-    margin: 10px auto;
-    font-family: 'montserrat', sans-serif;
-}
 
-.work__container button:hover {
-    background-color: #1feab5;
-    border-color: #1feab5;
-    transform: scale(1.05);
-}
-
-.weather {
-    background: url(../images/weather.jpg) center center no-repeat;
-    background-size: cover;
-}
-
-.loc8r {
-    background: url(../images/loc8r.jpg) center center no-repeat;
-    background-size: cover;
-}
-
-.animation {
-    background: url(../images/animation.jpg) center center no-repeat;
-    background-size: cover;
-}
-
-.form {
-    background: url(../images/form.jpg) center center no-repeat;
-    background-size: cover;
-}
-
-.space {
-    background: url(../images/space.jpg); 
-    background-size: cover;
-}
-
-.colors {
-    background: url(../images/color.jpg); 
-    background-size: cover;
-}
-
-.brew {
-    background: url(../images/brew.jpg); 
-    background-size: cover;
-}
 
 .contact__container {
     padding: 5em 0;
@@ -499,18 +516,6 @@ footer p {
         font-size: .9em;
         padding-bottom: 7em;
     }
-    .work__container {
-        flex-flow: row wrap;
-        justify-content: space-around;
-        padding: 60px 5%;
-    }
-    
-    
-    .work__container article {
-        width: 38%;
-        border-bottom: none;
-        padding: 5em 0;
-    }
     
 }
 
@@ -619,10 +624,6 @@ footer p {
     }
     .services__container-flex p {
         font-size: .7em;
-    }
-    .work__container article {
-        width: 28%;
-        margin: 30px 0;
     }
 
     .contact__container {
