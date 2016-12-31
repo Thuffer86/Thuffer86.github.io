@@ -127,9 +127,11 @@ body {
     width: 80%;
     margin: 0 auto;
     padding: 4em 0 0 0;
+    border-bottom: solid 1px #cfd2d6;
 }
 
 .services__container h1 {
+    margin-top: 25px;
     font-size: 1.5em;
     font-weight: 400;
 }
@@ -200,12 +202,17 @@ body {
 
 
 .work__container {
+  text-align: center;
   max-width: 1100px;
-  background-color: #edeff2;
+  background-color: #f8f8f8;
   margin: 0 auto;
-  padding: 3em 0;
-  border-top: solid 1px #cfd2d6;
-  border-bottom: solid 1px #cfd2d6;
+  padding: 5em 0 1.5em 0;
+
+}
+
+.work__container h1 {
+    font-size: 1.5em;
+    font-weight: 400;
 }
 
 .cards {
@@ -223,7 +230,7 @@ body {
 .card {
   position: relative;
   margin-bottom: 50px;
-  padding-bottom: 30px;
+  padding-bottom: 15px;
   background: #fff;
   color: #374561;
   text-decoration: none;
@@ -240,7 +247,7 @@ body {
   .card {
     max-width: 320px;
     margin-right: 20px;
-    margin-bottom: 20px;
+    width: 100%
   }
   .card:nth-child(even) {
     margin-right: 0;
@@ -253,6 +260,26 @@ body {
   .card:nth-child(3n) {
     margin-right: 0;
   }
+    
+    .card {
+      margin-bottom: 70px;
+    }
+    
+    body {
+      background-color: #f8f8f8;
+    }
+    
+    .services__container {
+      background-color: #fff;
+    }
+    
+    .card .card-title h3 {
+        font-size: 1em !important;   
+    }
+    
+    .card .card-summary {
+        font-size: .8em !important;
+    }
 }
 .card span {
   display: block;
@@ -262,6 +289,7 @@ body {
   font-weight: 400;
   font-family: 'open sans', sans-serif;
   font-size: .9em;
+  line-height: 1.7em;
 }
 .card .card-header {
   position: relative;
@@ -301,6 +329,8 @@ img {
     padding: 5em 0;
     background-color: #fff;
     display: block;
+      border-top: solid 1px #cfd2d6;
+
 }
 
 .contact__container h1 {
@@ -543,6 +573,10 @@ footer p {
         font-size: 1.2em;
     }
     
+    .work__container h1 {
+        font-size: 1.2em;
+    }
+    
     .services__container-flex {
         width: 90%;
         flex-flow: row wrap;
@@ -620,14 +654,14 @@ footer p {
     }
 
     .services__container-flex h1 {
-        font-size: 1em;
+        font-size: 1.1em;
     }
     .services__container-flex p {
-        font-size: .7em;
+        font-size: .8em;
     }
 
     .contact__container {
-        padding: 7em 25%;
+        padding: 5em 25%;
     }
     .header__container {
         padding: 9em 0;
