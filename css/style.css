@@ -201,6 +201,7 @@ body {
     font-family: 'open sans', sans-serif;
     line-height: 30px;
     margin-bottom: 6em;
+    opacity: .9;
 }
 .services__container-flex #last-child {
     margin-bottom: 1em;
@@ -252,6 +253,7 @@ body {
   font-weight: 400;
   font-family: 'open sans', sans-serif;
   font-size: .9em;
+    opacity: .9;
   line-height: 30px;
   text-align: left;
 }
@@ -312,6 +314,7 @@ textarea {
     padding: 10px 15px;
     background-color: #fff;
     color: #374561;
+        opacity: .9;
     font-size: 1em;
     border: 1px solid #374561;
     -webkit-appearance: none;
@@ -530,6 +533,10 @@ footer p {
     
     .service__img {
         height: 300px;
+    }
+    
+    .work__link .work-title h3 {
+        font-size: .9em;
     }
     
     .contact__container-flex {
