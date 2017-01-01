@@ -70,7 +70,7 @@ body {
 }
 
 .header__container {
-    background: url(../images/bg.jpg) center center no-repeat;
+    background: url(../images/bg2.jpg) center center no-repeat;
     background-size: cover;
     padding: 7em 0;
     border-top: solid 1px #cfd2d6;
@@ -86,8 +86,10 @@ body {
 }
 
 .title__container h1 {
-    font-size: 1.4em;
-    padding-bottom: 1.25em;
+    font-size: 1.3em;
+    margin-bottom: 1.25em;
+    padding: 1em .5em;
+    background-color: rgba(0,0,0, .4);
     text-transform: uppercase;
     line-height: 1.4em;
 }
@@ -595,12 +597,9 @@ footer p {
         padding: 0;
     }
     .title__container h1 {
-        font-size: 2.4em;
+        font-size: 2.2em;
     }
     
-    .header__container {
-        padding: 10em 0;
-    }
 
     .services__container-flex {
         width: 80%;
