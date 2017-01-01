@@ -70,7 +70,7 @@ body {
 }
 
 .header__container {
-    background: url(../images/bg2.jpg) center center no-repeat;
+    background: url(../images/bg.jpg) center center no-repeat;
     background-size: cover;
     padding: 7em 0;
     border-top: solid 1px #cfd2d6;
