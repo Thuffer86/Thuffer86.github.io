@@ -74,49 +74,43 @@ body {
     background: url(../images/bg.jpg) center center no-repeat;
     background-size: cover;
     padding: 5em 0;
-    border-bottom: solid 1px #acacac;
+        border-top: solid 1px #cfd2d6;
+    border-bottom: solid 1px #cfd2d6;
 }
 
 .title__container {
     color: #ffffff;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
-    max-width: 360px;
+    max-width: 320px;
 }
 
 .title__container h1 {
-    font-size: 1.5em;
-    padding-bottom: 1em;
+    font-size: 1.3em;
+    padding-bottom: 1.25em;
+    text-transform: uppercase;
+    line-height: 1.4em;
 }
 
-.title__container h2 {
-    font-size: .9em;
-    font-weight: 400;
-    padding-bottom: 2.5em;
-    line-height: 1.7em;
-    font-family: 'roboto', sans-serif;
-}
 
 .title__container button {
     font-weight: 400;
     display: block;
     margin: 0 auto;
     text-align: center;
-    background-color: transparent;
-    font-size: 1em;
+    background-color: #01d6a2;;
+    font-size: 1.1em;
     color: #ffffff;
     padding: 1.2em .8em;
-    border: solid 1px #01D6A2;
     transition: .35s;
     cursor: pointer;
+    border: none;
     font-family: 'montserrat', sans-serif;
-    background-color: #01D6A2;
 }
 
 .title__container button:hover {
-    background-color: #1feab5;
-    border-color: #1feab5;
+    background-color: #01D6A2;
     transform: scale(1.05);
 }
 
@@ -198,7 +192,7 @@ body {
 
 .services__container-flex p {
     font-size: .9em;
-    font-family: 'open sans', sans-serif;
+    font-family: 'cardo', serif;
     line-height: 30px;
     margin-bottom: 6em;
     opacity: .9;
@@ -234,7 +228,7 @@ body {
 .work__link {
   width: 100%;
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 90px;
   padding-bottom: 15px;
   background: #fff;
   color: #374561;
@@ -251,7 +245,7 @@ body {
 .work__link .work-summary {
   padding: 5% 5% 3% 5%;
   font-weight: 400;
-  font-family: 'open sans', sans-serif;
+  font-family: 'cardo', serif;
   font-size: .9em;
     opacity: .9;
   line-height: 30px;
@@ -267,10 +261,17 @@ body {
   background-blend-mode: overlay;
 }
 
+@media (max-width: 340px) {
+    .work__link .work-header {
+    position: relative;
+    height: 230px;
+}
+}
+
 .work__link .work-title {
-  background: #fff;
+  background: #374561;
   padding: 3.5% 0 2.5% 0;
-  color: #374561;
+  color: #fff;
   border-bottom: solid 1px #cfd2d6;
   position: absolute;
   bottom: 0;
@@ -338,8 +339,6 @@ textarea[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #46e1bb;
-    border-color: #46e1bb;
     transform: scale(1.05);
 }
 
@@ -407,7 +406,7 @@ footer {
 
 .social__container li a {
     text-decoration: none;
-    color: #f2f7ff;
+    color: #fff;
     font-weight: 700;
     font-size: .9em;
     transition: .35s;
@@ -419,11 +418,11 @@ footer {
 
 footer p {
     font-size: .9em;
-    color: #f2f7ff;
+    color: #fff;
     line-height: 1.7em;
     max-width: 80%;
     margin: 0 auto;
-    font-family: 'roboto', sans-serif;
+    font-family: 'open sans', sans-serif;
 }
 
 
@@ -458,19 +457,18 @@ footer p {
         font-size: .8em;
     }
     .header__container {
-        padding: 6em 0;
+        padding: 7em 0;
+    }
+    
+    .header__container h1 {
+        font-size: 1.6em;
     }
     
     .title__container {
-        max-width: 320px;
-        width: 45%;
-        margin: 0;
-        padding: 0 0 0 10%;
-        text-align: left;
+        max-width: 400px;
+        margin: 0 auto;
     }
-    .title__container button {
-        margin: 0;
-    }
+
     
     .services__container-flex {
         width: 60%;
@@ -479,6 +477,10 @@ footer p {
     .work__container-flex {
         width: 60%;
         margin: 0 auto;
+    }
+    
+    .work__link {
+        margin-bottom: 50px;
     }
     
     .service__img {
@@ -515,16 +517,15 @@ footer p {
     }
     
     .title__container {
-        width: 33.33%;
-        max-width: none;
+        max-width: 500px;
     }
     
     .title__container h1 {
-        font-size: 1.6em;
+        font-size: 1.8em;
     }
     
     .header__container {
-        padding: 7em 0;
+        padding: 9em 0;
     }
     
     .services__container-flex {
@@ -565,17 +566,17 @@ footer p {
     }
     
     .title__container {
-        max-width: 450px;
-        padding: 0 13%;
+        max-width: 40%;
+        padding: 0;
     }
     .title__container h1 {
-        font-size: 2em;
+        font-size: 2.4em;
     }
     
-    .title__container h2 {
-        font-size: .9em;
+    .header__container {
+        padding: 10em 0;
     }
-    
+
     .services__container-flex {
         width: 80%;
         flex-flow: row wrap;
@@ -596,11 +597,11 @@ footer p {
     }
     
     .service p {
-        font-size: .7em;
+        font-size: .8em;
     }
     
    .work__link .work-summary {
-        font-size: .7em;
+        font-size: .8em;
     }
     
     .work__link {
