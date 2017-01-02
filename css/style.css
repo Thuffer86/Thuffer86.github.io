@@ -19,10 +19,12 @@ body {
 
 .loading {
     box-sizing: border-box;
-    border: groove 18px #01D6A2;
-    width: 36px;
-    height: 36px;
-    margin: 0 auto;
+    border: ridge 14px #01D6A2;
+    width: 32px;
+    border-radius: 15%;
+    transform: rotate(-225deg);
+    height: 32px;
+    margin: 4px auto;
     animation: animate 1.75s linear infinite;
 }
 
@@ -133,26 +135,6 @@ body {
 }
 
 
-
-/*************animation****************/
-
-@keyframes animate {
-    0% {
-        transform: rotate(0);
-    }
-  
-  50% {
-        border-radius: 50%;
-        opacity: .8;
-        border: groove 14px #01D6A2;
-  }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-/*************animation****************/
 
 .container {
     width: 100%;
