@@ -19,7 +19,7 @@ body {
 
 .loading {
     box-sizing: border-box;
-    border: groove 14px #01D6A2;
+    border: groove 12px #01D6A2;
     width: 32px;
     border-radius: 15%;
     transform: rotate(-225deg);
@@ -249,9 +249,9 @@ body {
 .work__link .work-summary {
   padding: 8% 5% 6% 5%;
   font-weight: 400;
-  font-family: 'cardo', serif;
+  font-family: 'open sans', sans-serif;
   font-size: .9em;
-    opacity: .9;
+  opacity: .9;
   line-height: 30px;
   text-align: left;
 }
@@ -349,7 +349,7 @@ input[type=submit]:hover {
 input::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
     color: #374561;
-    font-family: 'roboto', sans-serif;
+    font-family: 'open sans', sans-serif;
 }
 
 input::-moz-placeholder,
