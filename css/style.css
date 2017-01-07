@@ -225,29 +225,42 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 80%;
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .work__link {
   width: 100%;
   position: relative;
-  margin-bottom: 90px;
+  margin-bottom: 40px;
   padding-bottom: 15px;
-  background: #fff;
   color: #374561;
   text-decoration: none;
-  border: solid 1px #cfd2d6;
-  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
 
 
 .work__link span {
   display: block;
 }
+
+.work__link h6 {
+	font-family: 'montserrat', san-serif;
+	color: #fff;
+    font-size: .7em;
+    margin-right: 5px;
+    font-weight: 400;
+	padding: 0.5em 1em;
+    border-radius: 15px;
+	display: inline-block;
+	background-color: #01d6a2;
+}
+
+.tag__container {
+    margin-top: 10px;
+}
+
+
 .work__link .work-summary {
-  padding: 8% 5% 6% 5%;
+  padding: 5% 3% 5% 0;
   font-weight: 400;
   font-family: 'open sans', sans-serif;
   font-size: .9em;
@@ -257,7 +270,8 @@ body {
 }
 .work__link .work-header {
   position: relative;
-  height: 275px;
+  height: 230px;
+  border: solid 1px #cecece;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -273,23 +287,18 @@ body {
 }
 
 .work__link .work-title {
-  background: #374561;
-  padding: 3.5% 0 2.5% 0;
-  color: #fff;
-  border-bottom: solid 1px #cfd2d6;
-  position: absolute;
-  bottom: 0;
+  background: #f5f5f5;
+  padding: 5% 0 0 0;
+  color: #374561;
   width: 100%;
 }
 
 .work__link .work-title h3 {
   font-size: 1.1em;
-  line-height: 1.2;
   font-weight: 700;
+  margin-top: .5em;
   font-family: 'montserrat', sans-serif;
-  padding: 0 5%;
-  margin: 0;
-    text-align: left;
+  text-align: left;
 }
 
 
