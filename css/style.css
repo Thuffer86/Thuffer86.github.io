@@ -212,6 +212,7 @@ body {
     background-color: #f5f5f5;
     border-top: solid 1px #cfd2d6;
     border-bottom: solid 1px #cfd2d6;
+    padding: 5em 0 2.5em 0;
 }
 
 .work__container-flex {
@@ -262,7 +263,7 @@ body {
 .work__link .work-summary {
   padding: 5% 3% 5% 0;
   font-weight: 400;
-  font-family: 'open sans', sans-serif;
+  font-family: 'cardo', serif;
   font-size: .9em;
   opacity: .9;
   line-height: 30px;
