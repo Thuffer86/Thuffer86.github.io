@@ -73,6 +73,7 @@ body {
 
 .header__container {
     background: url(../images/bg.jpg) center center no-repeat;
+        background-attachment: fixed;
     background-size: cover;
     padding: 7em 0;
     border-top: solid 1px #cfd2d6;
@@ -201,7 +202,7 @@ body {
     opacity: .9;
 }
 .services__container-flex #last-child {
-    margin-bottom: 1em;
+    margin-bottom: 0em;
 }
 .services__container-flex hr {
     width: 40px;
@@ -247,21 +248,21 @@ body {
 	font-family: 'montserrat', san-serif;
 	color: #fff;
     font-size: .7em;
-    margin-right: 5px;
+    margin-right: 7px;
     font-weight: 400;
-	padding: 0.5em 1em;
+	padding: 0.6em 1.2em;
     border-radius: 15px;
 	display: inline-block;
 	background-color: #01d6a2;
 }
 
 .tag__container {
-    margin-top: 10px;
+    margin-top: 7px;
 }
 
 
 .work__link .work-summary {
-  padding: 5% 3% 5% 0;
+  padding: 10px 3% 8% 0;
   font-weight: 400;
   font-family: 'cardo', serif;
   font-size: .9em;
@@ -295,9 +296,9 @@ body {
 }
 
 .work__link .work-title h3 {
-  font-size: 1.1em;
-  font-weight: 700;
-  margin-top: .5em;
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-top: 5px;
   font-family: 'montserrat', sans-serif;
   text-align: left;
 }
@@ -556,7 +557,7 @@ footer p {
     }
     
     .work__link .work-title h3 {
-        font-size: .9em;
+        font-size: 1em;
     }
     
     .contact__container-flex {
@@ -573,6 +574,10 @@ footer p {
     
     .social__container li a {
         font-size: .8em;
+    }
+    
+    .work__link h6 {
+        font-size: .6em;   
     }
     
     
