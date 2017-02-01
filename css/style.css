@@ -126,14 +126,6 @@ body {
     transform: scale(1.05);
 }
 
-.title__container button img {
-    width: 22px;
-    height: 22px;
-    margin-left: 6px;
-    position: relative;
-    top: 4px;
-    
-}
 
 #about {
     background-color: #f5f5f5;
