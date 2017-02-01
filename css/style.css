@@ -116,6 +116,7 @@ body {
 .title__container button a {
     color: #ffffff;
     line-height: 70px;
+    padding: 25px 5px;
 
 }
 
@@ -132,6 +133,20 @@ body {
     position: relative;
     top: 4px;
     
+}
+
+#about {
+    background-color: #f5f5f5;
+    border-top: solid 1px #cfd2d6;
+    border-bottom: solid 1px #cfd2d6;   
+}
+
+.side img {
+    width: 34px;
+    height: 34px;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
 }
 
 
@@ -153,6 +168,43 @@ body {
     background-color: #01d6a2;
     border: none;
     margin: 1em auto 3em auto;    
+}
+
+.clearfix {
+    clear: both;
+}
+
+#about__wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.side {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+}
+
+
+.about__right {
+    margin-top: 60px;
+}
+
+
+.side h2 {
+    font-weight: 400;
+    text-align: left;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+
+.side p {
+    font-size: 1em;
+    font-family: 'cardo', serif;
+    line-height: 30px;
+    opacity: .9;
 }
 
 
@@ -194,7 +246,7 @@ body {
 }
 
 .services__container-flex p {
-    font-size: .9em;
+    font-size: 1em;
     font-family: 'cardo', serif;
     line-height: 30px;
     margin-bottom: 6em;
@@ -270,7 +322,7 @@ body {
   padding: 10px 3% 5% 0;
   font-weight: 400;
   font-family: 'cardo', serif;
-  font-size: .9em;
+  font-size: 1em;
   opacity: .9;
   line-height: 30px;
   text-align: left;
@@ -488,7 +540,11 @@ footer p {
         max-width: 400px;
         margin: 0 auto;
     }
-
+    
+    #about__wrapper {
+        width: 60%;
+        margin: 0 auto;
+    }
     
     .services__container-flex {
         width: 60%;
@@ -553,6 +609,48 @@ footer p {
         padding: 9em 0;
     }
     
+    .about__right {
+        margin: 0;
+    }
+    
+#about__wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+    
+    
+   .side {
+       width: 47.5%;
+    }
+    
+    .side p {
+        font-size: .8em;
+    }
+    
+    .service p {
+        font-size: .8em;
+    }
+    
+        .service h1 {
+        font-size: 1.1em;
+    }
+    
+
+    
+   .work__link .work-summary {
+        font-size: .8em;
+    }
+    
+    
+    .about__left {
+        float: left;
+    }
+    
+    .about__right {
+        float: right;
+    }
+
+    
     .services__container-flex {
         width: 50%;
     }
@@ -602,7 +700,15 @@ footer p {
         font-size: 2.2em;
     }
     
-
+    .side img {
+        width: 38px;
+        height: 38px;
+    }
+ 
+    .side h2 {
+        font-size: 1.6em;
+    }
+    
     .services__container-flex {
         width: 80%;
         flex-flow: row wrap;
@@ -618,18 +724,7 @@ footer p {
         height: 520px;
     }
     
-    .service h1 {
-        font-size: 1.1em;
-    }
-    
-    .service p {
-        font-size: .8em;
-    }
-    
-   .work__link .work-summary {
-        font-size: .8em;
-    }
-    
+
     .work__link {
         width: 30%;
     }
