@@ -241,6 +241,7 @@ hr {
     font-size: 18px;
     font-weight: 700;
     padding: 20px;
+
 }
 
 .work__link {
@@ -277,8 +278,9 @@ hr {
   background-size: cover;
   background-position: center;
   background-blend-mode: overlay;
-  border-bottom: solid 1px #cecece;
   transition: .35s;
+  border: solid 12px #fff;
+  border-bottom: none;
 }
 
 .availability__container {
@@ -309,71 +311,67 @@ hr {
 
 .process__container h2 {
     text-align: center;
-    margin-bottom: 0;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.process p {
+    padding-top: 30px;
 }
 
 .process__one img {
-    float: left;
-    height: 270px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%) skewY(-3deg);
+    height: 190px;
+    display: block;
+    margin: 0 auto;
+    transform: skewY(-4deg);
 }
 
 .process__one p {
-    float: right;
-    width: 50%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%) skewY(-3deg);
-    font-size: 16px;
+    width: 90%;
+    transform: skewY(-4deg);
+    font-size: 14px;
+    margin: 0 auto;
     
 }
 
 .process__two img {
-    float: right;
-    height: 270px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%)  skewY(3deg);
+    height: 190px;
+    transform: skewY(4deg);
+    display: block;
+    margin: 0 auto;
 }
 
 .process__two p {
-    float: left;
-    width: 50%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%) skewY(3deg);
-    font-size: 16px;
+    width: 90%;
+    transform: skewY(4deg);
+    font-size: 14px;
+    margin: 0 auto;
 }
 
 .process__three img {
-    float: left;
-    height: 270px;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%)  skewY(-3deg);
+    height: 190px;
+    transform: skewY(-4deg);
+    display: block;
+    margin: 0 auto;
 }
 
 .process__three p {
-    float: right;
-    width: 50%;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%) skewY(-3deg);
-    font-size: 16px;
+    width: 90%;
+    transform: skewY(-4deg);
+    font-size: 14px;
+    margin: 0 auto;
     
 } 
 
 .process__one {
-    transform: skewY(3deg);
+    transform: skewY(4deg);
 }
 
 .process__two {
-    transform: skewY(-3deg);
+    transform: skewY(-4deg);
 }
 .process__three {
-    transform: skewY(3deg);
+    transform: skewY(4deg);
 }
 
 .process {
@@ -381,9 +379,9 @@ hr {
     border: solid 1px #cecece;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     clear: both;
-    height: 400px;
-    margin: 80px 15% 140px 15%;
-    padding: 0 5%;
+    height: auto;
+    margin: 80px 10% 140px 10%;
+    padding: 10% 5%;
 }
 
 
@@ -469,7 +467,7 @@ footer {
 
 }
 
-@media(min-width:1000px) {
+@media(min-width:1024px) {
     
     .about__right {
         margin: 0;
@@ -504,6 +502,72 @@ footer {
     
     .work__link {
         width: 30%;
+    }
+    
+    
+    
+    .process__one img {
+    float: left;
+    height: 270px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%) skewY(-4deg);
+}
+
+.process__one p {
+    float: right;
+    width: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%) skewY(-4deg);
+    font-size: 16px;
+    
+}
+
+.process__two img {
+    float: right;
+    height: 270px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)  skewY(4deg);
+}
+
+.process__two p {
+    float: left;
+    width: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%) skewY(4deg);
+    font-size: 16px;
+}
+
+.process__three img {
+    float: left;
+    height: 270px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%)  skewY(-4deg);
+}
+
+.process__three p {
+    float: right;
+    width: 50%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%) skewY(-4deg);
+    font-size: 16px;
+    
+} 
+    
+    .process p {
+    padding-top: 0px;
+}
+
+    
+    .process {
+        height: 400px;
+        padding: 0% 5%;
+        margin: 80px 15% 140px 15%;
     }
 
 } 
