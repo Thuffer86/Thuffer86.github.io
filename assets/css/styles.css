@@ -221,7 +221,7 @@ hr {
 }
 
 .work__link {
-  max-width: 280px;
+  max-width: 320px;
   width: 100%;
   background-color: #ffffff;
   position: relative;
@@ -333,6 +333,10 @@ hr {
     
 } 
 
+.process__container .process__three {
+    margin-bottom: 80px;
+}
+
 
 
 .process {
@@ -393,7 +397,7 @@ hr {
 }
 .footer .title {
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
   font-weight: 700;
   opacity: 1;
@@ -401,7 +405,7 @@ hr {
 
 @media screen and (max-width: 991px) {
     .spacing {
-        padding: 60px 0;
+        padding: 45px 0 0 0;
     }
     
     .container {
