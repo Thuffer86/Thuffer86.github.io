@@ -112,7 +112,7 @@ button {
     text-align: center;
     background-color: #F45E64;
     padding: 0 .8em;
-    height: 60px;
+    height: 65px;
     transition: .35s;
     cursor: pointer;
     border: none;
@@ -162,11 +162,22 @@ h2 {
     
 }
 
+p span {
+    font-family: 'open sans', sans-serif;
+    font-weight: 700;
+    color: rgba(17, 43, 62, 1);
+}
+
 p {
-    font-family: 'hind', sans-serif;
-    font-size: 16px;
+    font-family: 'open sans', sans-serif;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 1.45em;
+    line-height: 1.6;
+    color: rgba(17, 43, 62, 0.75);
+}
+
+.about__right {
+    margin-top: 30px;
 }
 
 .side img {
@@ -269,7 +280,7 @@ hr {
 .availability__container h2 {
     color: #fff;
     max-width: 520px;
-    line-height: 1.45em;
+    line-height: 1.6;
     width: 80%;
     margin: 0 auto 30px auto;
 }
@@ -293,6 +304,7 @@ hr {
 
 .process p {
     padding-top: 30px;
+        color: rgba(17, 43, 62, 1);
 }
 
 .process__one img {
@@ -303,7 +315,6 @@ hr {
 
 .process__one p {
     width: 90%;
-    font-size: 14px;
     margin: 0 auto;
     
 }
@@ -316,7 +327,6 @@ hr {
 
 .process__two p {
     width: 90%;
-    font-size: 14px;
     margin: 0 auto;
 }
 
@@ -328,7 +338,6 @@ hr {
 
 .process__three p {
     width: 90%;
-    font-size: 14px;
     margin: 0 auto;
     
 } 
@@ -394,6 +403,7 @@ hr {
 
 .footer a:hover {
     color: #fff;
+    font-weight 700;
 }
 .footer .title {
   margin-bottom: 15px;
@@ -442,6 +452,14 @@ hr {
         font-size: 14px;
     }
     
+    .process img {
+        height: 230px;
+    }
+    
+    .process__container {
+        padding: 4em 12%;
+    }
+    
     
 
 .navigation a:hover:before {
@@ -484,6 +502,10 @@ hr {
 
 @media(min-width:1024px) {
     
+    header h1 {
+        font-size: 42px;
+    }
+    
     .about__right {
         margin: 0;
     }
@@ -523,7 +545,7 @@ hr {
     
     .process__one img {
     float: left;
-    height: 270px;
+    height: 255px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -535,13 +557,12 @@ hr {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 16px;
     
 }
 
 .process__two img {
     float: right;
-    height: 270px;
+    height: 250px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -553,12 +574,11 @@ hr {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 16px;
 }
 
 .process__three img {
     float: left;
-    height: 270px;
+    height: 250px;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -570,7 +590,6 @@ hr {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    font-size: 16px;
     
 } 
     
@@ -583,6 +602,10 @@ hr {
         height: 400px;
         padding: 0% 5%;
         margin: 80px 15% 140px 15%;
+    }
+    
+        .process__container {
+        padding: 4em 0;
     }
 
 } 
