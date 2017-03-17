@@ -487,10 +487,10 @@ hr {
   transform: scaleX(0);
     }
     
-            .work__container-flex {
-        width: 80%;
-        justify-content: space-between;
-    }
+.work__container-flex {
+      width: 80%;
+     justify-content: space-between;
+}
     
     .work__link {
         width: 45%;
