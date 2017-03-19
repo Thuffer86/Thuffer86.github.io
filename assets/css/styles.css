@@ -65,7 +65,7 @@ header h1 {
 
 
 .logo__container h1 {
-    margin: 15px 0 15px 0px;
+    margin: 0px 0 15px 0px;
     font-size: 32px;
     font-weight: 300;
     font-family: 'yellowtail', cursive;
@@ -366,10 +366,6 @@ hr {
     font-size: 17px;
 }
 
-.subFooter {
-    height: 60px;
-    background-color: #0a1d2b;
-}
 
 .footer__summary {
     color: #fff;
@@ -391,20 +387,23 @@ hr {
   list-style: none;
 }
 
+
+
 .footer li, .footer a {
   color: #a6b3bf;
-  font-size: 13px;
+  font-size: 12px;
   font-family: 'open sans', sans-serif;
     text-decoration: none;
   opacity: 1;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 24px;
 }
 
-.footer a:hover {
+.footer li a:hover {
     color: #fff;
-    font-weight 700;
 }
+
+
 .footer .title {
   margin-bottom: 15px;
   font-size: 20px;
